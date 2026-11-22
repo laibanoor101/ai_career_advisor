@@ -1,0 +1,230 @@
+{
+  "riasec_order": ["R", "I", "A", "S", "E", "C"],
+  "skills_order": [
+    "English",
+    "Mathematics",
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "Computer Science",
+    "General Science",
+    "Civics",
+    "Economics",
+    "History",
+    "Education",
+    "Home Economics",
+    "Geography"
+  ],
+  "paths": [
+    {
+      "id": "pre-medical",
+      "title": "Pre-Medical",
+      "subtitle": "FSc Pre-Medical",
+      "riasec_targets": {"R": 2, "I": 5, "A": 2, "S": 4, "E": 2, "C": 3},
+      "skills": {
+        "English": 3,
+        "Mathematics": 3,
+        "Physics": 4,
+        "Chemistry": 5,
+        "Biology": 5,
+        "Computer Science": 1,
+        "General Science": 3,
+        "Civics": 1,
+        "Economics": 1,
+        "History": 1,
+        "Education": 2,
+        "Home Economics": 1,
+        "Geography": 1
+      },
+      "reason_template": "Your interest in investigation and strengths in biology support the {subtitle} route.",
+      "careers": ["Doctor (MBBS)", "Pharmacist", "Biotechnologist", "Medical Researcher"],
+      "resources": [
+        {
+          "title": "Biology",
+          "provider": "Khan Academy",
+          "url": "https://www.khanacademy.org/science/biology"
+        },
+        {
+          "title": "Anatomy and Physiology",
+          "provider": "OpenStax",
+          "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+        }
+      ]
+    },
+    {
+      "id": "pre-engineering",
+      "title": "Pre-Engineering",
+      "subtitle": "FSc Pre-Engineering",
+      "riasec_targets": {"R": 4, "I": 5, "A": 2, "S": 2, "E": 2, "C": 3},
+      "skills": {
+        "English": 3,
+        "Mathematics": 5,
+        "Physics": 5,
+        "Chemistry": 4,
+        "Biology": 1,
+        "Computer Science": 3,
+        "General Science": 3,
+        "Civics": 1,
+        "Economics": 1,
+        "History": 1,
+        "Education": 1,
+        "Home Economics": 1,
+        "Geography": 1
+      },
+      "reason_template": "Your analytical interests and math and logic strengths fit the {subtitle} route.",
+      "careers": ["Software Engineer", "Electrical Engineer", "Mechanical Engineer", "Research Scientist"],
+      "resources": [
+        {
+          "title": "Physics",
+          "provider": "Khan Academy",
+          "url": "https://www.khanacademy.org/science/physics"
+        },
+        {
+          "title": "Single Variable Calculus",
+          "provider": "MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/"
+        }
+      ]
+    },
+    {
+      "id": "ics",
+      "title": "ICS",
+      "subtitle": "Computer Science",
+      "riasec_targets": {"R": 3, "I": 5, "A": 3, "S": 2, "E": 2, "C": 3},
+      "skills": {
+        "English": 3,
+        "Mathematics": 5,
+        "Physics": 4,
+        "Chemistry": 2,
+        "Biology": 1,
+        "Computer Science": 5,
+        "General Science": 3,
+        "Civics": 1,
+        "Economics": 1,
+        "History": 1,
+        "Education": 1,
+        "Home Economics": 1,
+        "Geography": 1
+      },
+      "reason_template": "Your investigative interests and problem-solving strengths support the {subtitle} route.",
+      "careers": ["Software Engineer", "ML Engineer", "Data Analyst"],
+      "resources": [
+        {
+          "title": "CS50x: Introduction to Computer Science",
+          "provider": "Harvard University",
+          "url": "https://cs50.harvard.edu/x/"
+        },
+        {
+          "title": "Free coding and computer science lessons",
+          "provider": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org/learn/"
+        }
+      ]
+    },
+    {
+      "id": "i-com",
+      "title": "I.Com",
+      "subtitle": "Commerce",
+      "riasec_targets": {"R": 2, "I": 3, "A": 2, "S": 3, "E": 5, "C": 5},
+      "skills": {
+        "English": 4,
+        "Mathematics": 4,
+        "Physics": 1,
+        "Chemistry": 1,
+        "Biology": 1,
+        "Computer Science": 2,
+        "General Science": 1,
+        "Civics": 2,
+        "Economics": 5,
+        "History": 1,
+        "Education": 2,
+        "Home Economics": 1,
+        "Geography": 3
+      },
+      "reason_template": "Your enterprising, organised interests and finance strengths are a good fit for {subtitle}.",
+      "careers": ["Accountant", "Financial Analyst", "Business Analyst", "Marketing Executive"],
+      "resources": [
+        {
+          "title": "Finance and capital markets",
+          "provider": "Khan Academy",
+          "url": "https://www.khanacademy.org/economics-finance-domain"
+        },
+        {
+          "title": "Excel training",
+          "provider": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/training/browse/?products=excel"
+        }
+      ]
+    },
+    {
+      "id": "fa-humanities",
+      "title": "FA Humanities",
+      "subtitle": "Psychology, Education, Social Sciences",
+      "riasec_targets": {"R": 1, "I": 3, "A": 4, "S": 5, "E": 3, "C": 2},
+      "skills": {
+        "English": 5,
+        "Mathematics": 2,
+        "Physics": 1,
+        "Chemistry": 1,
+        "Biology": 1,
+        "Computer Science": 1,
+        "General Science": 2,
+        "Civics": 5,
+        "Economics": 3,
+        "History": 5,
+        "Education": 4,
+        "Home Economics": 1,
+        "Geography": 3
+      },
+      "reason_template": "Your social and artistic interests and communication strengths align with {subtitle}.",
+      "careers": ["School Counselor", "Teacher/Professor", "Civil Services", "Journalist"],
+      "resources": [
+        {
+          "title": "Psychology and mental health",
+          "provider": "OpenLearn",
+          "url": "https://www.open.edu/openlearn/health-sports-psychology"
+        },
+        {
+          "title": "Academic writing",
+          "provider": "Purdue OWL",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/"
+        }
+      ]
+    },
+    {
+      "id": "fa-arts-home-economics",
+      "title": "FA Arts and Home Economics",
+      "subtitle": "Arts and Home Economics",
+      "riasec_targets": {"R": 2, "I": 2, "A": 5, "S": 4, "E": 3, "C": 2},
+      "skills": {
+        "English": 4,
+        "Mathematics": 2,
+        "Physics": 1,
+        "Chemistry": 1,
+        "Biology": 1,
+        "Computer Science": 1,
+        "General Science": 2,
+        "Civics": 2,
+        "Economics": 2,
+        "History": 3,
+        "Education": 3,
+        "Home Economics": 5,
+        "Geography": 3
+      },
+      "reason_template": "Your creative and social interests and design strengths suit {subtitle}.",
+      "careers": ["Designer", "Fashion/Interior Designer", "Home Economics Teacher", "Nutrition Assistant"],
+      "resources": [
+        {
+          "title": "Design School",
+          "provider": "Canva",
+          "url": "https://www.canva.com/designschool/"
+        },
+        {
+          "title": "Arts and humanities",
+          "provider": "Khan Academy",
+          "url": "https://www.khanacademy.org/humanities"
+        }
+      ]
+    }
+  ]
+}

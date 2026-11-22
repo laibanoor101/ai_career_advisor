@@ -1,0 +1,1063 @@
+{
+  "version": 2,
+  "input_size": 123,
+  "output_size": 79,
+  "riasec_order": [
+    "R",
+    "I",
+    "A",
+    "S",
+    "E",
+    "C"
+  ],
+  "skills_order": [
+    "Academic & Policy Writing",
+    "Accounting & Finance",
+    "Accounting Software",
+    "Active Listening & Empathy",
+    "Advanced Excel",
+    "Aseptic Techniques & Sterilization",
+    "Auditing & Internal Controls",
+    "AutoCAD Electrical",
+    "Bioinformatics & Sequence Analysis",
+    "Biology",
+    "Biosafety & Lab Waste Management",
+    "Budgeting & Forecasting",
+    "Business Communication & Report Writing",
+    "Business Studies",
+    "Case History Taking & Clinical Observation",
+    "Chemistry",
+    "Circuit Design & Analysis",
+    "Civics",
+    "Civics & Political Science",
+    "Cloud Computing Basics",
+    "Communication & Empathy",
+    "Community Outreach & Fieldwork",
+    "Computer Science",
+    "Conflict Resolution & Mediation",
+    "Control Systems & Automation",
+    "Corporate Finance & Valuation",
+    "Counseling & Interviewing Techniques",
+    "Creative Writing",
+    "Critical Thinking",
+    "Critical Thinking & Behavioral Analysis",
+    "Cross-Cultural Competence",
+    "DNA/RNA Extraction & Quantification",
+    "Data Analysis & Statistics",
+    "Data Structures & Algorithms",
+    "Data Visualization & BI Tools",
+    "Database Management",
+    "Database Querying (SQL)",
+    "Digital Logic Design & HDL",
+    "Digital Marketing & Market Research",
+    "ELISA & Immunoassays",
+    "Economics",
+    "Education",
+    "Electronics & Hardware",
+    "Embedded C / C++ Programming",
+    "English",
+    "Ethical Standards & Confidentiality",
+    "Fermentation & Bioprocess Technology",
+    "Financial Statement Analysis",
+    "Fine Arts",
+    "General Science",
+    "Geography",
+    "Graphic Design & UI/UX",
+    "History",
+    "Home Economics",
+    "IoT Integration",
+    "Lab Documentation & Report Writing",
+    "Lab Equipment Handling",
+    "Logic & Problem Solving",
+    "MATLAB & Simulink",
+    "Mathematics",
+    "Microbial Culturing & Isolation",
+    "Microcontrollers & Embedded Systems",
+    "Microscopy & Staining Techniques",
+    "Mobile App Development",
+    "Negotiation & Client Relationship Management",
+    "Object-Oriented Programming",
+    "Operating Systems & Linux",
+    "PCB Design & Layout",
+    "PCR & Gel Electrophoresis",
+    "Physics",
+    "Power Systems & Electrical Machines",
+    "Presentation & Pitching Skills",
+    "Problem Solving & Analytical Thinking",
+    "Programming Fundamentals",
+    "Project Management",
+    "Project Management & Operations",
+    "Psychological Assessment & Psychometrics",
+    "Psychology",
+    "Public Speaking",
+    "Public Speaking & Workshop Facilitation",
+    "Python Programming",
+    "Quality Control & Quality Assurance",
+    "RESTful APIs & Backend Integration",
+    "Research Methodology",
+    "Risk Management",
+    "SDLC & Agile/Scrum",
+    "Scientific Research",
+    "Scientific Research & Literature Review",
+    "Signal Processing",
+    "Sociology",
+    "Software Testing & Debugging",
+    "Spectrophotometry & Chromatography",
+    "Statistical Analysis & Software",
+    "Statistical Data Analysis",
+    "Survey Design & Data Collection",
+    "System Design & Algorithms",
+    "Taxation & Regulatory Compliance",
+    "Team Collaboration",
+    "Technical Documentation & Safety Standards",
+    "Technical Drawing & Design",
+    "Troubleshooting & Fault Diagnosis",
+    "UI/UX Design & Prototyping",
+    "Version Control",
+    "Web Development Basics"
+  ],
+  "feature_order": [
+    "(riasec_R-1)/4",
+    "(riasec_I-1)/4",
+    "(riasec_A-1)/4",
+    "(riasec_S-1)/4",
+    "(riasec_E-1)/4",
+    "(riasec_C-1)/4",
+    "(skill_Academic & Policy Writing-1)/4 if offered to the group else 0",
+    "(skill_Accounting & Finance-1)/4 if offered to the group else 0",
+    "(skill_Accounting Software-1)/4 if offered to the group else 0",
+    "(skill_Active Listening & Empathy-1)/4 if offered to the group else 0",
+    "(skill_Advanced Excel-1)/4 if offered to the group else 0",
+    "(skill_Aseptic Techniques & Sterilization-1)/4 if offered to the group else 0",
+    "(skill_Auditing & Internal Controls-1)/4 if offered to the group else 0",
+    "(skill_AutoCAD Electrical-1)/4 if offered to the group else 0",
+    "(skill_Bioinformatics & Sequence Analysis-1)/4 if offered to the group else 0",
+    "(skill_Biology-1)/4 if offered to the group else 0",
+    "(skill_Biosafety & Lab Waste Management-1)/4 if offered to the group else 0",
+    "(skill_Budgeting & Forecasting-1)/4 if offered to the group else 0",
+    "(skill_Business Communication & Report Writing-1)/4 if offered to the group else 0",
+    "(skill_Business Studies-1)/4 if offered to the group else 0",
+    "(skill_Case History Taking & Clinical Observation-1)/4 if offered to the group else 0",
+    "(skill_Chemistry-1)/4 if offered to the group else 0",
+    "(skill_Circuit Design & Analysis-1)/4 if offered to the group else 0",
+    "(skill_Civics-1)/4 if offered to the group else 0",
+    "(skill_Civics & Political Science-1)/4 if offered to the group else 0",
+    "(skill_Cloud Computing Basics-1)/4 if offered to the group else 0",
+    "(skill_Communication & Empathy-1)/4 if offered to the group else 0",
+    "(skill_Community Outreach & Fieldwork-1)/4 if offered to the group else 0",
+    "(skill_Computer Science-1)/4 if offered to the group else 0",
+    "(skill_Conflict Resolution & Mediation-1)/4 if offered to the group else 0",
+    "(skill_Control Systems & Automation-1)/4 if offered to the group else 0",
+    "(skill_Corporate Finance & Valuation-1)/4 if offered to the group else 0",
+    "(skill_Counseling & Interviewing Techniques-1)/4 if offered to the group else 0",
+    "(skill_Creative Writing-1)/4 if offered to the group else 0",
+    "(skill_Critical Thinking-1)/4 if offered to the group else 0",
+    "(skill_Critical Thinking & Behavioral Analysis-1)/4 if offered to the group else 0",
+    "(skill_Cross-Cultural Competence-1)/4 if offered to the group else 0",
+    "(skill_DNA/RNA Extraction & Quantification-1)/4 if offered to the group else 0",
+    "(skill_Data Analysis & Statistics-1)/4 if offered to the group else 0",
+    "(skill_Data Structures & Algorithms-1)/4 if offered to the group else 0",
+    "(skill_Data Visualization & BI Tools-1)/4 if offered to the group else 0",
+    "(skill_Database Management-1)/4 if offered to the group else 0",
+    "(skill_Database Querying (SQL)-1)/4 if offered to the group else 0",
+    "(skill_Digital Logic Design & HDL-1)/4 if offered to the group else 0",
+    "(skill_Digital Marketing & Market Research-1)/4 if offered to the group else 0",
+    "(skill_ELISA & Immunoassays-1)/4 if offered to the group else 0",
+    "(skill_Economics-1)/4 if offered to the group else 0",
+    "(skill_Education-1)/4 if offered to the group else 0",
+    "(skill_Electronics & Hardware-1)/4 if offered to the group else 0",
+    "(skill_Embedded C / C++ Programming-1)/4 if offered to the group else 0",
+    "(skill_English-1)/4 if offered to the group else 0",
+    "(skill_Ethical Standards & Confidentiality-1)/4 if offered to the group else 0",
+    "(skill_Fermentation & Bioprocess Technology-1)/4 if offered to the group else 0",
+    "(skill_Financial Statement Analysis-1)/4 if offered to the group else 0",
+    "(skill_Fine Arts-1)/4 if offered to the group else 0",
+    "(skill_General Science-1)/4 if offered to the group else 0",
+    "(skill_Geography-1)/4 if offered to the group else 0",
+    "(skill_Graphic Design & UI/UX-1)/4 if offered to the group else 0",
+    "(skill_History-1)/4 if offered to the group else 0",
+    "(skill_Home Economics-1)/4 if offered to the group else 0",
+    "(skill_IoT Integration-1)/4 if offered to the group else 0",
+    "(skill_Lab Documentation & Report Writing-1)/4 if offered to the group else 0",
+    "(skill_Lab Equipment Handling-1)/4 if offered to the group else 0",
+    "(skill_Logic & Problem Solving-1)/4 if offered to the group else 0",
+    "(skill_MATLAB & Simulink-1)/4 if offered to the group else 0",
+    "(skill_Mathematics-1)/4 if offered to the group else 0",
+    "(skill_Microbial Culturing & Isolation-1)/4 if offered to the group else 0",
+    "(skill_Microcontrollers & Embedded Systems-1)/4 if offered to the group else 0",
+    "(skill_Microscopy & Staining Techniques-1)/4 if offered to the group else 0",
+    "(skill_Mobile App Development-1)/4 if offered to the group else 0",
+    "(skill_Negotiation & Client Relationship Management-1)/4 if offered to the group else 0",
+    "(skill_Object-Oriented Programming-1)/4 if offered to the group else 0",
+    "(skill_Operating Systems & Linux-1)/4 if offered to the group else 0",
+    "(skill_PCB Design & Layout-1)/4 if offered to the group else 0",
+    "(skill_PCR & Gel Electrophoresis-1)/4 if offered to the group else 0",
+    "(skill_Physics-1)/4 if offered to the group else 0",
+    "(skill_Power Systems & Electrical Machines-1)/4 if offered to the group else 0",
+    "(skill_Presentation & Pitching Skills-1)/4 if offered to the group else 0",
+    "(skill_Problem Solving & Analytical Thinking-1)/4 if offered to the group else 0",
+    "(skill_Programming Fundamentals-1)/4 if offered to the group else 0",
+    "(skill_Project Management-1)/4 if offered to the group else 0",
+    "(skill_Project Management & Operations-1)/4 if offered to the group else 0",
+    "(skill_Psychological Assessment & Psychometrics-1)/4 if offered to the group else 0",
+    "(skill_Psychology-1)/4 if offered to the group else 0",
+    "(skill_Public Speaking-1)/4 if offered to the group else 0",
+    "(skill_Public Speaking & Workshop Facilitation-1)/4 if offered to the group else 0",
+    "(skill_Python Programming-1)/4 if offered to the group else 0",
+    "(skill_Quality Control & Quality Assurance-1)/4 if offered to the group else 0",
+    "(skill_RESTful APIs & Backend Integration-1)/4 if offered to the group else 0",
+    "(skill_Research Methodology-1)/4 if offered to the group else 0",
+    "(skill_Risk Management-1)/4 if offered to the group else 0",
+    "(skill_SDLC & Agile/Scrum-1)/4 if offered to the group else 0",
+    "(skill_Scientific Research-1)/4 if offered to the group else 0",
+    "(skill_Scientific Research & Literature Review-1)/4 if offered to the group else 0",
+    "(skill_Signal Processing-1)/4 if offered to the group else 0",
+    "(skill_Sociology-1)/4 if offered to the group else 0",
+    "(skill_Software Testing & Debugging-1)/4 if offered to the group else 0",
+    "(skill_Spectrophotometry & Chromatography-1)/4 if offered to the group else 0",
+    "(skill_Statistical Analysis & Software-1)/4 if offered to the group else 0",
+    "(skill_Statistical Data Analysis-1)/4 if offered to the group else 0",
+    "(skill_Survey Design & Data Collection-1)/4 if offered to the group else 0",
+    "(skill_System Design & Algorithms-1)/4 if offered to the group else 0",
+    "(skill_Taxation & Regulatory Compliance-1)/4 if offered to the group else 0",
+    "(skill_Team Collaboration-1)/4 if offered to the group else 0",
+    "(skill_Technical Documentation & Safety Standards-1)/4 if offered to the group else 0",
+    "(skill_Technical Drawing & Design-1)/4 if offered to the group else 0",
+    "(skill_Troubleshooting & Fault Diagnosis-1)/4 if offered to the group else 0",
+    "(skill_UI/UX Design & Prototyping-1)/4 if offered to the group else 0",
+    "(skill_Version Control-1)/4 if offered to the group else 0",
+    "(skill_Web Development Basics-1)/4 if offered to the group else 0",
+    "group_one_hot[0]",
+    "group_one_hot[1]",
+    "group_one_hot[2]",
+    "group_one_hot[3]",
+    "group_one_hot[4]",
+    "group_one_hot[5]",
+    "group_one_hot[6]",
+    "group_one_hot[7]",
+    "group_one_hot[8]",
+    "group_one_hot[9]",
+    "group_one_hot[10]",
+    "group_one_hot[11]",
+    "group_one_hot[12]"
+  ],
+  "groups": [
+    {
+      "level": "Matric",
+      "name": "Science Group (Bio-Science)",
+      "skills": [
+        "English",
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology"
+      ],
+      "classes": [
+        "Matric:pre-medical",
+        "Matric:pre-engineering",
+        "Matric:ics",
+        "Matric:i-com",
+        "Matric:fa-humanities",
+        "Matric:fa-arts-home-economics"
+      ]
+    },
+    {
+      "level": "Matric",
+      "name": "General Science Group (Computer Science)",
+      "skills": [
+        "English",
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Computer Science"
+      ],
+      "classes": [
+        "Matric:pre-medical",
+        "Matric:pre-engineering",
+        "Matric:ics",
+        "Matric:i-com",
+        "Matric:fa-humanities",
+        "Matric:fa-arts-home-economics"
+      ]
+    },
+    {
+      "level": "Matric",
+      "name": "Arts / Humanities & Home Economics Group",
+      "skills": [
+        "English",
+        "Mathematics",
+        "General Science",
+        "Civics",
+        "Economics",
+        "History",
+        "Education",
+        "Home Economics",
+        "Geography"
+      ],
+      "classes": [
+        "Matric:pre-medical",
+        "Matric:pre-engineering",
+        "Matric:ics",
+        "Matric:i-com",
+        "Matric:fa-humanities",
+        "Matric:fa-arts-home-economics"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "name": "Pre-Engineering (Math, Physics, Chemistry)",
+      "skills": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "English",
+        "Logic & Problem Solving",
+        "Electronics & Hardware",
+        "Critical Thinking",
+        "Technical Drawing & Design",
+        "Team Collaboration"
+      ],
+      "classes": [
+        "Intermediate:software-engineering",
+        "Intermediate:computer-engineering",
+        "Intermediate:electrical-engineering",
+        "Intermediate:electronics-telecom",
+        "Intermediate:mechanical-engineering",
+        "Intermediate:civil-engineering",
+        "Intermediate:chemical-engineering",
+        "Intermediate:architecture"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "name": "Pre-Medical (Biology, Physics, Chemistry)",
+      "skills": [
+        "Biology",
+        "Chemistry",
+        "Physics",
+        "Mathematics",
+        "English",
+        "Scientific Research",
+        "Critical Thinking",
+        "Communication & Empathy",
+        "Team Collaboration",
+        "Data Analysis & Statistics"
+      ],
+      "classes": [
+        "Intermediate:mbbs",
+        "Intermediate:dentistry",
+        "Intermediate:pharmacy",
+        "Intermediate:physical-therapy",
+        "Intermediate:radiology",
+        "Intermediate:nursing",
+        "Intermediate:medical-lab",
+        "Intermediate:biotechnology",
+        "Intermediate:psychology-med"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "name": "ICS (Computer Science, Math, Physics)",
+      "skills": [
+        "Computer Science",
+        "Mathematics",
+        "Physics",
+        "English",
+        "Logic & Problem Solving",
+        "Python Programming",
+        "Web Development Basics",
+        "Database Querying (SQL)",
+        "System Design & Algorithms",
+        "Data Analysis & Statistics",
+        "Graphic Design & UI/UX",
+        "Team Collaboration"
+      ],
+      "classes": [
+        "Intermediate:software-eng-ics",
+        "Intermediate:computer-science",
+        "Intermediate:data-science",
+        "Intermediate:artificial-intelligence",
+        "Intermediate:cyber-security",
+        "Intermediate:information-technology",
+        "Intermediate:web-ui-ux",
+        "Intermediate:information-systems"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "name": "I.Com (Commerce, Economics, Accounting)",
+      "skills": [
+        "Accounting & Finance",
+        "Economics",
+        "Business Studies",
+        "Mathematics",
+        "English",
+        "Data Analysis & Statistics",
+        "Public Speaking",
+        "Critical Thinking",
+        "Team Collaboration",
+        "Project Management"
+      ],
+      "classes": [
+        "Intermediate:bba",
+        "Intermediate:accounting-finance",
+        "Intermediate:economics",
+        "Intermediate:banking-finance",
+        "Intermediate:marketing-sales",
+        "Intermediate:business-analytics",
+        "Intermediate:professional-accountancy",
+        "Intermediate:human-resources"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "name": "Humanities / Arts",
+      "skills": [
+        "English",
+        "Psychology",
+        "Sociology",
+        "Civics & Political Science",
+        "Economics",
+        "History",
+        "Education",
+        "Fine Arts",
+        "Home Economics",
+        "Public Speaking",
+        "Critical Thinking",
+        "Creative Writing"
+      ],
+      "classes": [
+        "Intermediate:psychology-arts",
+        "Intermediate:law",
+        "Intermediate:mass-communication",
+        "Intermediate:international-relations",
+        "Intermediate:public-policy",
+        "Intermediate:sociology-social-work",
+        "Intermediate:education",
+        "Intermediate:english-literature",
+        "Intermediate:fine-arts-design",
+        "Intermediate:home-economics"
+      ]
+    },
+    {
+      "level": "Bachelors",
+      "name": "BS Software Engineering / Computer Science",
+      "skills": [
+        "Programming Fundamentals",
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "Database Management",
+        "Version Control",
+        "Web Development Basics",
+        "Mobile App Development",
+        "RESTful APIs & Backend Integration",
+        "SDLC & Agile/Scrum",
+        "UI/UX Design & Prototyping",
+        "Operating Systems & Linux",
+        "Software Testing & Debugging",
+        "Cloud Computing Basics",
+        "Problem Solving & Analytical Thinking"
+      ],
+      "classes": [
+        "Bachelors:full-stack-web-developer",
+        "Bachelors:mobile-app-developer",
+        "Bachelors:ui-ux-designer",
+        "Bachelors:sqa-engineer",
+        "Bachelors:backend-database-engineer",
+        "Bachelors:cloud-devops-engineer"
+      ]
+    },
+    {
+      "level": "Bachelors",
+      "name": "BE Electrical / Electronics Engineering",
+      "skills": [
+        "Circuit Design & Analysis",
+        "PCB Design & Layout",
+        "Microcontrollers & Embedded Systems",
+        "Embedded C / C++ Programming",
+        "MATLAB & Simulink",
+        "Digital Logic Design & HDL",
+        "Power Systems & Electrical Machines",
+        "Control Systems & Automation",
+        "Signal Processing",
+        "Lab Equipment Handling",
+        "AutoCAD Electrical",
+        "IoT Integration",
+        "Troubleshooting & Fault Diagnosis",
+        "Technical Documentation & Safety Standards"
+      ],
+      "classes": [
+        "Bachelors:embedded-systems-engineer",
+        "Bachelors:pcb-hardware-design-engineer",
+        "Bachelors:industrial-automation-plc-engineer",
+        "Bachelors:iot-solutions-engineer",
+        "Bachelors:fpga-digital-design-engineer",
+        "Bachelors:power-systems-engineer"
+      ]
+    },
+    {
+      "level": "Bachelors",
+      "name": "BBA / BS Accounting & Finance",
+      "skills": [
+        "Financial Statement Analysis",
+        "Advanced Excel",
+        "Accounting Software",
+        "Budgeting & Forecasting",
+        "Taxation & Regulatory Compliance",
+        "Auditing & Internal Controls",
+        "Corporate Finance & Valuation",
+        "Business Communication & Report Writing",
+        "Data Visualization & BI Tools",
+        "Digital Marketing & Market Research",
+        "Project Management & Operations",
+        "Negotiation & Client Relationship Management",
+        "Risk Management",
+        "Presentation & Pitching Skills"
+      ],
+      "classes": [
+        "Bachelors:financial-analyst",
+        "Bachelors:auditor",
+        "Bachelors:tax-consultant",
+        "Bachelors:erp-accounting-specialist",
+        "Bachelors:bi-analyst",
+        "Bachelors:digital-marketing-brand-strategist"
+      ]
+    },
+    {
+      "level": "Bachelors",
+      "name": "BS Biotechnology / Microbiology",
+      "skills": [
+        "Aseptic Techniques & Sterilization",
+        "Microbial Culturing & Isolation",
+        "PCR & Gel Electrophoresis",
+        "DNA/RNA Extraction & Quantification",
+        "Microscopy & Staining Techniques",
+        "ELISA & Immunoassays",
+        "Spectrophotometry & Chromatography",
+        "Bioinformatics & Sequence Analysis",
+        "Biosafety & Lab Waste Management",
+        "Fermentation & Bioprocess Technology",
+        "Quality Control & Quality Assurance",
+        "Scientific Research & Literature Review",
+        "Statistical Data Analysis",
+        "Lab Documentation & Report Writing"
+      ],
+      "classes": [
+        "Bachelors:qc-microbiologist",
+        "Bachelors:qa-officer",
+        "Bachelors:clinical-lab-technologist",
+        "Bachelors:bioinformatics-analyst",
+        "Bachelors:bioprocess-fermentation-specialist",
+        "Bachelors:pharma-rd-associate"
+      ]
+    },
+    {
+      "level": "Bachelors",
+      "name": "BS Psychology / Social Sciences",
+      "skills": [
+        "Research Methodology",
+        "Statistical Analysis & Software",
+        "Psychological Assessment & Psychometrics",
+        "Active Listening & Empathy",
+        "Case History Taking & Clinical Observation",
+        "Counseling & Interviewing Techniques",
+        "Academic & Policy Writing",
+        "Survey Design & Data Collection",
+        "Critical Thinking & Behavioral Analysis",
+        "Conflict Resolution & Mediation",
+        "Ethical Standards & Confidentiality",
+        "Public Speaking & Workshop Facilitation",
+        "Community Outreach & Fieldwork",
+        "Cross-Cultural Competence"
+      ],
+      "classes": [
+        "Bachelors:clinical-counseling-psychologist",
+        "Bachelors:hr-specialist",
+        "Bachelors:social-market-research-analyst",
+        "Bachelors:me-officer",
+        "Bachelors:employee-wellness-coordinator",
+        "Bachelors:public-policy-analyst"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "key": "Matric:pre-medical",
+      "level": "Matric",
+      "id": "pre-medical",
+      "title": "Pre-Medical"
+    },
+    {
+      "key": "Matric:pre-engineering",
+      "level": "Matric",
+      "id": "pre-engineering",
+      "title": "Pre-Engineering"
+    },
+    {
+      "key": "Matric:ics",
+      "level": "Matric",
+      "id": "ics",
+      "title": "ICS"
+    },
+    {
+      "key": "Matric:i-com",
+      "level": "Matric",
+      "id": "i-com",
+      "title": "I.Com"
+    },
+    {
+      "key": "Matric:fa-humanities",
+      "level": "Matric",
+      "id": "fa-humanities",
+      "title": "FA Humanities"
+    },
+    {
+      "key": "Matric:fa-arts-home-economics",
+      "level": "Matric",
+      "id": "fa-arts-home-economics",
+      "title": "FA Arts and Home Economics"
+    },
+    {
+      "key": "Intermediate:software-engineering",
+      "level": "Intermediate",
+      "id": "software-engineering",
+      "title": "Software Engineering"
+    },
+    {
+      "key": "Intermediate:computer-engineering",
+      "level": "Intermediate",
+      "id": "computer-engineering",
+      "title": "Computer Engineering"
+    },
+    {
+      "key": "Intermediate:electrical-engineering",
+      "level": "Intermediate",
+      "id": "electrical-engineering",
+      "title": "Electrical Engineering"
+    },
+    {
+      "key": "Intermediate:electronics-telecom",
+      "level": "Intermediate",
+      "id": "electronics-telecom",
+      "title": "Electronics & Telecom Engineering"
+    },
+    {
+      "key": "Intermediate:mechanical-engineering",
+      "level": "Intermediate",
+      "id": "mechanical-engineering",
+      "title": "Mechanical Engineering"
+    },
+    {
+      "key": "Intermediate:civil-engineering",
+      "level": "Intermediate",
+      "id": "civil-engineering",
+      "title": "Civil Engineering"
+    },
+    {
+      "key": "Intermediate:chemical-engineering",
+      "level": "Intermediate",
+      "id": "chemical-engineering",
+      "title": "Chemical Engineering"
+    },
+    {
+      "key": "Intermediate:architecture",
+      "level": "Intermediate",
+      "id": "architecture",
+      "title": "Architecture"
+    },
+    {
+      "key": "Intermediate:mbbs",
+      "level": "Intermediate",
+      "id": "mbbs",
+      "title": "Medicine (MBBS)"
+    },
+    {
+      "key": "Intermediate:dentistry",
+      "level": "Intermediate",
+      "id": "dentistry",
+      "title": "Dentistry (BDS)"
+    },
+    {
+      "key": "Intermediate:pharmacy",
+      "level": "Intermediate",
+      "id": "pharmacy",
+      "title": "Pharmacy (Pharm-D)"
+    },
+    {
+      "key": "Intermediate:physical-therapy",
+      "level": "Intermediate",
+      "id": "physical-therapy",
+      "title": "Physical Therapy (DPT)"
+    },
+    {
+      "key": "Intermediate:radiology",
+      "level": "Intermediate",
+      "id": "radiology",
+      "title": "Radiology & Medical Imaging"
+    },
+    {
+      "key": "Intermediate:nursing",
+      "level": "Intermediate",
+      "id": "nursing",
+      "title": "Nursing"
+    },
+    {
+      "key": "Intermediate:medical-lab",
+      "level": "Intermediate",
+      "id": "medical-lab",
+      "title": "Medical Laboratory Technology"
+    },
+    {
+      "key": "Intermediate:biotechnology",
+      "level": "Intermediate",
+      "id": "biotechnology",
+      "title": "Biotechnology"
+    },
+    {
+      "key": "Intermediate:psychology-med",
+      "level": "Intermediate",
+      "id": "psychology-med",
+      "title": "Psychology"
+    },
+    {
+      "key": "Intermediate:software-eng-ics",
+      "level": "Intermediate",
+      "id": "software-eng-ics",
+      "title": "Software Engineering"
+    },
+    {
+      "key": "Intermediate:computer-science",
+      "level": "Intermediate",
+      "id": "computer-science",
+      "title": "Computer Science"
+    },
+    {
+      "key": "Intermediate:data-science",
+      "level": "Intermediate",
+      "id": "data-science",
+      "title": "Data Science"
+    },
+    {
+      "key": "Intermediate:artificial-intelligence",
+      "level": "Intermediate",
+      "id": "artificial-intelligence",
+      "title": "Artificial Intelligence"
+    },
+    {
+      "key": "Intermediate:cyber-security",
+      "level": "Intermediate",
+      "id": "cyber-security",
+      "title": "Cyber Security"
+    },
+    {
+      "key": "Intermediate:information-technology",
+      "level": "Intermediate",
+      "id": "information-technology",
+      "title": "Information Technology"
+    },
+    {
+      "key": "Intermediate:web-ui-ux",
+      "level": "Intermediate",
+      "id": "web-ui-ux",
+      "title": "Web & UI/UX Design"
+    },
+    {
+      "key": "Intermediate:information-systems",
+      "level": "Intermediate",
+      "id": "information-systems",
+      "title": "Information Systems"
+    },
+    {
+      "key": "Intermediate:bba",
+      "level": "Intermediate",
+      "id": "bba",
+      "title": "Business Administration"
+    },
+    {
+      "key": "Intermediate:accounting-finance",
+      "level": "Intermediate",
+      "id": "accounting-finance",
+      "title": "Accounting & Finance"
+    },
+    {
+      "key": "Intermediate:economics",
+      "level": "Intermediate",
+      "id": "economics",
+      "title": "Economics"
+    },
+    {
+      "key": "Intermediate:banking-finance",
+      "level": "Intermediate",
+      "id": "banking-finance",
+      "title": "Banking & Finance"
+    },
+    {
+      "key": "Intermediate:marketing-sales",
+      "level": "Intermediate",
+      "id": "marketing-sales",
+      "title": "Marketing & Sales"
+    },
+    {
+      "key": "Intermediate:business-analytics",
+      "level": "Intermediate",
+      "id": "business-analytics",
+      "title": "Business Analytics"
+    },
+    {
+      "key": "Intermediate:professional-accountancy",
+      "level": "Intermediate",
+      "id": "professional-accountancy",
+      "title": "Professional Accountancy (CA / ACCA)"
+    },
+    {
+      "key": "Intermediate:human-resources",
+      "level": "Intermediate",
+      "id": "human-resources",
+      "title": "Human Resource Management"
+    },
+    {
+      "key": "Intermediate:psychology-arts",
+      "level": "Intermediate",
+      "id": "psychology-arts",
+      "title": "Psychology"
+    },
+    {
+      "key": "Intermediate:law",
+      "level": "Intermediate",
+      "id": "law",
+      "title": "Law"
+    },
+    {
+      "key": "Intermediate:mass-communication",
+      "level": "Intermediate",
+      "id": "mass-communication",
+      "title": "Mass Communication & Journalism"
+    },
+    {
+      "key": "Intermediate:international-relations",
+      "level": "Intermediate",
+      "id": "international-relations",
+      "title": "International Relations"
+    },
+    {
+      "key": "Intermediate:public-policy",
+      "level": "Intermediate",
+      "id": "public-policy",
+      "title": "Public Policy & Political Science"
+    },
+    {
+      "key": "Intermediate:sociology-social-work",
+      "level": "Intermediate",
+      "id": "sociology-social-work",
+      "title": "Sociology & Social Work"
+    },
+    {
+      "key": "Intermediate:education",
+      "level": "Intermediate",
+      "id": "education",
+      "title": "Education & Teaching"
+    },
+    {
+      "key": "Intermediate:english-literature",
+      "level": "Intermediate",
+      "id": "english-literature",
+      "title": "English Literature & Linguistics"
+    },
+    {
+      "key": "Intermediate:fine-arts-design",
+      "level": "Intermediate",
+      "id": "fine-arts-design",
+      "title": "Fine Arts & Design"
+    },
+    {
+      "key": "Intermediate:home-economics",
+      "level": "Intermediate",
+      "id": "home-economics",
+      "title": "Home Economics (Food, Nutrition & Textiles)"
+    },
+    {
+      "key": "Bachelors:full-stack-web-developer",
+      "level": "Bachelors",
+      "id": "full-stack-web-developer",
+      "title": "Full-Stack Web Developer"
+    },
+    {
+      "key": "Bachelors:mobile-app-developer",
+      "level": "Bachelors",
+      "id": "mobile-app-developer",
+      "title": "Mobile App Developer"
+    },
+    {
+      "key": "Bachelors:ui-ux-designer",
+      "level": "Bachelors",
+      "id": "ui-ux-designer",
+      "title": "UI/UX Designer"
+    },
+    {
+      "key": "Bachelors:sqa-engineer",
+      "level": "Bachelors",
+      "id": "sqa-engineer",
+      "title": "Software Quality Assurance (SQA) Engineer"
+    },
+    {
+      "key": "Bachelors:backend-database-engineer",
+      "level": "Bachelors",
+      "id": "backend-database-engineer",
+      "title": "Backend / Database Engineer"
+    },
+    {
+      "key": "Bachelors:cloud-devops-engineer",
+      "level": "Bachelors",
+      "id": "cloud-devops-engineer",
+      "title": "Cloud & DevOps Engineer"
+    },
+    {
+      "key": "Bachelors:embedded-systems-engineer",
+      "level": "Bachelors",
+      "id": "embedded-systems-engineer",
+      "title": "Embedded Systems Engineer"
+    },
+    {
+      "key": "Bachelors:pcb-hardware-design-engineer",
+      "level": "Bachelors",
+      "id": "pcb-hardware-design-engineer",
+      "title": "PCB & Hardware Design Engineer"
+    },
+    {
+      "key": "Bachelors:industrial-automation-plc-engineer",
+      "level": "Bachelors",
+      "id": "industrial-automation-plc-engineer",
+      "title": "Industrial Automation & PLC Engineer"
+    },
+    {
+      "key": "Bachelors:iot-solutions-engineer",
+      "level": "Bachelors",
+      "id": "iot-solutions-engineer",
+      "title": "IoT Solutions Engineer"
+    },
+    {
+      "key": "Bachelors:fpga-digital-design-engineer",
+      "level": "Bachelors",
+      "id": "fpga-digital-design-engineer",
+      "title": "FPGA / Digital Design Engineer"
+    },
+    {
+      "key": "Bachelors:power-systems-engineer",
+      "level": "Bachelors",
+      "id": "power-systems-engineer",
+      "title": "Power Systems Engineer"
+    },
+    {
+      "key": "Bachelors:financial-analyst",
+      "level": "Bachelors",
+      "id": "financial-analyst",
+      "title": "Financial Analyst"
+    },
+    {
+      "key": "Bachelors:auditor",
+      "level": "Bachelors",
+      "id": "auditor",
+      "title": "Internal / External Auditor"
+    },
+    {
+      "key": "Bachelors:tax-consultant",
+      "level": "Bachelors",
+      "id": "tax-consultant",
+      "title": "Tax Consultant"
+    },
+    {
+      "key": "Bachelors:erp-accounting-specialist",
+      "level": "Bachelors",
+      "id": "erp-accounting-specialist",
+      "title": "ERP / Accounting Specialist"
+    },
+    {
+      "key": "Bachelors:bi-analyst",
+      "level": "Bachelors",
+      "id": "bi-analyst",
+      "title": "Business Intelligence (BI) Analyst"
+    },
+    {
+      "key": "Bachelors:digital-marketing-brand-strategist",
+      "level": "Bachelors",
+      "id": "digital-marketing-brand-strategist",
+      "title": "Digital Marketing & Brand Strategist"
+    },
+    {
+      "key": "Bachelors:qc-microbiologist",
+      "level": "Bachelors",
+      "id": "qc-microbiologist",
+      "title": "Quality Control (QC) Microbiologist"
+    },
+    {
+      "key": "Bachelors:qa-officer",
+      "level": "Bachelors",
+      "id": "qa-officer",
+      "title": "Quality Assurance (QA) Officer"
+    },
+    {
+      "key": "Bachelors:clinical-lab-technologist",
+      "level": "Bachelors",
+      "id": "clinical-lab-technologist",
+      "title": "Clinical Lab Technologist"
+    },
+    {
+      "key": "Bachelors:bioinformatics-analyst",
+      "level": "Bachelors",
+      "id": "bioinformatics-analyst",
+      "title": "Bioinformatics Analyst"
+    },
+    {
+      "key": "Bachelors:bioprocess-fermentation-specialist",
+      "level": "Bachelors",
+      "id": "bioprocess-fermentation-specialist",
+      "title": "Bioprocess & Fermentation Specialist"
+    },
+    {
+      "key": "Bachelors:pharma-rd-associate",
+      "level": "Bachelors",
+      "id": "pharma-rd-associate",
+      "title": "Pharmaceutical R&D Associate"
+    },
+    {
+      "key": "Bachelors:clinical-counseling-psychologist",
+      "level": "Bachelors",
+      "id": "clinical-counseling-psychologist",
+      "title": "Clinical / Counseling Psychologist"
+    },
+    {
+      "key": "Bachelors:hr-specialist",
+      "level": "Bachelors",
+      "id": "hr-specialist",
+      "title": "Human Resources (HR) Specialist"
+    },
+    {
+      "key": "Bachelors:social-market-research-analyst",
+      "level": "Bachelors",
+      "id": "social-market-research-analyst",
+      "title": "Social & Market Research Analyst"
+    },
+    {
+      "key": "Bachelors:me-officer",
+      "level": "Bachelors",
+      "id": "me-officer",
+      "title": "Monitoring & Evaluation (M&E) Officer"
+    },
+    {
+      "key": "Bachelors:employee-wellness-coordinator",
+      "level": "Bachelors",
+      "id": "employee-wellness-coordinator",
+      "title": "Employee Wellness Coordinator"
+    },
+    {
+      "key": "Bachelors:public-policy-analyst",
+      "level": "Bachelors",
+      "id": "public-policy-analyst",
+      "title": "Public Policy Analyst"
+    }
+  ],
+  "rating_scale": "RIASEC 1-5 and skill 1-5, scaled as (rating-1)/4",
+  "display_temperature": 3.0,
+  "hybrid_model_weight": 0.5,
+  "note": "The model already masks classes outside the student's group (output ~0). Dart should still renormalise over the group's classes before mixing with the rule scores."
+}

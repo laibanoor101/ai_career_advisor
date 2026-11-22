@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roadmap (Career Detail & Skill Gap) - design reference</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#FAF5FF',
+              100: '#F3E8FF',
+              400: '#C084FC',
+              500: '#A855F7',
+              600: '#9333EA',
+              700: '#7E22CE',
+              800: '#6B21A8',
+              900: '#581C87',
+            },
+            accent: {
+              cyan: '#06B6D4',
+              emerald: '#10B981',
+              rose: '#F43F5E',
+              amber: '#F59E0B'
+            },
+            dark: {
+              canvas: '#0B0F19',
+              card: '#131927',
+              surface: '#1E293B',
+              border: 'rgba(255, 255, 255, 0.08)'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at 50% 10%, #1e1145 0%, #0b0f19 70%);
+      transition: background 0.3s ease;
+    }
+    body.light-theme-active {
+      background: radial-gradient(circle at 50% 10%, #f1f5f9 0%, #e2e8f0 70%);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+    }
+    .phone-shadow {
+      box-shadow: 0 30px 80px -20px rgba(147, 51, 234, 0.35), 0 0 0 10px #111827, 0 0 0 12px #374151;
+      transition: all 0.3s ease;
+    }
+    .light-theme .phone-shadow {
+      box-shadow: 0 25px 60px -15px rgba(15, 23, 42, 0.15), 0 0 0 10px #ffffff, 0 0 0 12px #e2e8f0;
+    }
+    .glass-card {
+      background: rgba(26, 34, 53, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.25s ease;
+    }
+    .glow-purple {
+      box-shadow: 0 4px 20px -2px rgba(168, 85, 247, 0.4);
+    }
+
+        /* ================= ACCESSIBLE HIGH-CONTRAST LIGHT MODE RULES ================= */
+    .light-theme #phone-container {
+      background-color: #F8FAFC !important;
+      border-color: #CBD5E1 !important;
+    }
+    .light-theme .phone-status-bar {
+      color: #0F172A !important;
+    }
+    .light-theme .phone-notch {
+      background-color: #E2E8F0 !important;
+    }
+    .light-theme .phone-camera {
+      background-color: #94A3B8 !important;
+      border-color: #CBD5E1 !important;
+    }
+    .light-theme #screens-viewport {
+      background-color: #F8FAFC !important;
+    }
+    .light-theme .phone-nav-bar {
+      background-color: #FFFFFF !important;
+      border-color: #E2E8F0 !important;
+      color: #64748B !important;
+    }
+    .light-theme .phone-nav-bar .text-purple-400 {
+      color: #7E22CE !important;
+    }
+    .light-theme .glass-card {
+      background: #FFFFFF !important;
+      border: 1px solid #E2E8F0 !important;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06) !important;
+    }
+    .light-theme h1, .light-theme h2, .light-theme h3, .light-theme h4, .light-theme h5 {
+      color: #0F172A !important;
+    }
+    .light-theme p {
+      color: #334155 !important;
+    }
+    .light-theme label {
+      color: #0F172A !important;
+    }
+    .light-theme input, .light-theme select {
+      background-color: #FFFFFF !important;
+      border: 1.5px solid #CBD5E1 !important;
+      color: #0F172A !important;
+    }
+    .light-theme input::placeholder {
+      color: #64748B !important;
+    }
+    .light-theme .text-slate-400, .light-theme .text-slate-500 {
+      color: #475569 !important;
+    }
+    .light-theme .text-slate-300, .light-theme .text-slate-200 {
+      color: #1E293B !important;
+    }
+
+    /* Screen 6: Matches Hero Card in Light Mode */
+    .light-theme .career-hero-card {
+      background: linear-gradient(135deg, #F5F3FF 0%, #EDE9FE 60%, #E0E7FF 100%) !important;
+      border: 1.5px solid #C084FC !important;
+      box-shadow: 0 10px 25px -5px rgba(147, 51, 234, 0.15) !important;
+    }
+    .light-theme .career-hero-card h3 {
+      color: #1E1B4B !important;
+    }
+    .light-theme .career-hero-card p {
+      color: #312E81 !important;
+    }
+    .light-theme .career-hero-card .hero-tag {
+      background-color: #DDD6FE !important;
+      color: #5B21B6 !important;
+      border-color: #A78BFA !important;
+    }
+    .light-theme .career-hero-card .hero-badge {
+      background-color: #CFFAFE !important;
+      color: #0E7490 !important;
+      border-color: #67E8F9 !important;
+    }
+    .light-theme .career-hero-card .hero-sub {
+      color: #6B21A8 !important;
+    }
+    .light-theme .career-hero-card .hero-footer-text {
+      color: #4C1D95 !important;
+    }
+    .light-theme .career-hero-card .hero-btn {
+      background-color: #7E22CE !important;
+      color: #FFFFFF !important;
+      box-shadow: 0 4px 12px rgba(126, 34, 206, 0.3) !important;
+    }
+    .light-theme .career-hero-card .hero-avatar {
+      background: linear-gradient(135deg, #9333EA 0%, #4F46E5 100%) !important;
+      border-color: #A855F7 !important;
+    }
+    .light-theme .career-hero-card .hero-avatar i {
+      color: #FFFFFF !important;
+    }
+
+    /* Screen 7: Why Fits Profile Explainability Card in Light Mode */
+    .light-theme .why-fits-card {
+      background: linear-gradient(135deg, #FAF5FF 0%, #F3E8FF 100%) !important;
+      border: 1.5px solid #D8B4FE !important;
+      border-left: 4px solid #9333EA !important;
+      box-shadow: 0 4px 12px rgba(147, 51, 234, 0.08) !important;
+    }
+    .light-theme .why-fits-card h4 {
+      color: #581C87 !important;
+    }
+    .light-theme .why-fits-card ul li span {
+      color: #1E293B !important;
+    }
+    .light-theme .why-fits-card ul li strong {
+      color: #0F172A !important;
+    }
+    .light-theme .why-fits-card i.fa-check {
+      color: #0284C7 !important;
+    }
+
+    /* Consistent Purple Input Icons for all fields */
+    .field-icon {
+      color: #A855F7 !important;
+    }
+    .light-theme .field-icon {
+      color: #7E22CE !important;
+    }
+
+    /* Profile Education Cards Styling */
+    .edu-radio-card {
+      background-color: rgba(30, 41, 59, 0.6);
+      border: 1.5px solid #334155;
+      color: #94A3B8;
+      transition: all 0.2s ease;
+    }
+    .edu-radio-card .edu-icon {
+      color: #94A3B8;
+      transition: all 0.2s ease;
+    }
+    .edu-radio-card .edu-title {
+      color: #E2E8F0;
+      transition: all 0.2s ease;
+    }
+    .edu-radio-card .edu-sub {
+      color: #64748B;
+      transition: all 0.2s ease;
+    }
+
+    /* Selected state: Bright Purple */
+    .edu-radio-card.selected-edu {
+      background-color: rgba(168, 85, 247, 0.15) !important;
+      border-color: #A855F7 !important;
+      box-shadow: 0 0 16px rgba(168, 85, 247, 0.3) !important;
+    }
+    .edu-radio-card.selected-edu .edu-icon {
+      color: #C084FC !important;
+    }
+    .edu-radio-card.selected-edu .edu-title {
+      color: #FAF5FF !important;
+    }
+    .edu-radio-card.selected-edu .edu-sub {
+      color: #D8B4FE !important;
+    }
+
+    /* Light Theme Edu Cards */
+    .light-theme .edu-radio-card {
+      background-color: #FFFFFF !important;
+      border-color: #CBD5E1 !important;
+    }
+    .light-theme .edu-radio-card .edu-icon {
+      color: #64748B !important;
+    }
+    .light-theme .edu-radio-card .edu-title {
+      color: #1E293B !important;
+    }
+    .light-theme .edu-radio-card .edu-sub {
+      color: #64748B !important;
+    }
+
+    .light-theme .edu-radio-card.selected-edu {
+      background-color: #F3E8FF !important;
+      border-color: #9333EA !important;
+      box-shadow: 0 4px 14px rgba(147, 51, 234, 0.2) !important;
+    }
+    .light-theme .edu-radio-card.selected-edu .edu-icon {
+      color: #7E22CE !important;
+    }
+    .light-theme .edu-radio-card.selected-edu .edu-title {
+      color: #581C87 !important;
+    }
+    .light-theme .edu-radio-card.selected-edu .edu-sub {
+      color: #7E22CE !important;
+    }
+
+    
+    /* Auth Tabs Styling in Light Mode */
+    .light-theme .auth-tabs-container {
+      background-color: #F1F5F9 !important;
+      border: 1px solid #CBD5E1 !important;
+    }
+    .light-theme .auth-tab-btn:not(.active-auth-tab) {
+      color: #334155 !important;
+      font-weight: 700 !important;
+    }
+    .light-theme .auth-tab-btn.active-auth-tab {
+      background: linear-gradient(to right, #9333EA, #4F46E5) !important;
+      color: #FFFFFF !important;
+      box-shadow: 0 2px 8px rgba(147, 51, 234, 0.3) !important;
+    }
+
+    /* Google Button Styling in Light and Dark Mode */
+    .google-auth-btn {
+      transition: all 0.2s ease;
+    }
+    .light-theme .google-auth-btn {
+      background-color: #FFFFFF !important;
+      border: 1.5px solid #CBD5E1 !important;
+      color: #0F172A !important;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.05) !important;
+    }
+    .light-theme .google-btn-text {
+      color: #0F172A !important;
+      font-weight: 700 !important;
+    }
+
+    /* Detail Screen Top Badges in Light Mode */
+    .light-theme .detail-category-tag {
+      background-color: #F3E8FF !important;
+      color: #6B21A8 !important;
+      border-color: #C084FC !important;
+      font-weight: 700 !important;
+    }
+    .light-theme .detail-match-badge {
+      background-color: #E0F2FE !important;
+      color: #0369A1 !important;
+      border-color: #7DD3FC !important;
+      font-weight: 800 !important;
+    }
+
+    
+    /* ================= UNIVERSAL BADGE & PILL ACCESSIBILITY RULES ================= */
+    /* Light Mode: Make ALL purple, cyan, pink, and dark badges high contrast and readable */
+    .light-theme [class*="bg-purple-500/20"],
+    .light-theme [class*="bg-purple-500/10"],
+    .light-theme [class*="bg-purple-500/30"] {
+      background-color: #F3E8FF !important;
+      border-color: #C084FC !important;
+      color: #6B21A8 !important;
+      font-weight: 700 !important;
+    }
+
+    .light-theme [class*="bg-cyan-500/20"],
+    .light-theme [class*="bg-cyan-500/10"],
+    .light-theme [class*="bg-cyan-500/30"] {
+      background-color: #E0F2FE !important;
+      border-color: #7DD3FC !important;
+      color: #0369A1 !important;
+      font-weight: 700 !important;
+    }
+
+    .light-theme [class*="bg-pink-500/20"],
+    .light-theme [class*="bg-pink-500/10"],
+    .light-theme [class*="bg-pink-500/30"] {
+      background-color: #FCE7F3 !important;
+      border-color: #F472B6 !important;
+      color: #9D174D !important;
+      font-weight: 700 !important;
+    }
+
+    .light-theme [class*="bg-amber-500/20"],
+    .light-theme [class*="bg-amber-500/10"] {
+      background-color: #FEF3C7 !important;
+      border-color: #FCD34D !important;
+      color: #92400E !important;
+      font-weight: 700 !important;
+    }
+
+    .light-theme .bg-slate-800.text-slate-300 {
+      background-color: #E2E8F0 !important;
+      border-color: #CBD5E1 !important;
+      color: #1E293B !important;
+      font-weight: 700 !important;
+    }
+
+    .light-theme [class*="text-purple-300"] {
+      color: #6B21A8 !important;
+    }
+    .light-theme [class*="text-purple-400"] {
+      color: #7E22CE !important;
+    }
+    .light-theme [class*="text-cyan-300"],
+    .light-theme [class*="text-cyan-400"] {
+      color: #0284C7 !important;
+    }
+    .light-theme [class*="text-pink-300"],
+    .light-theme [class*="text-pink-400"] {
+      color: #BE185D !important;
+    }
+    .light-theme [class*="text-amber-300"],
+    .light-theme [class*="text-amber-400"] {
+      color: #B45309 !important;
+    }
+
+    /* History and Results Cards specific high-contrast badges */
+    .light-theme #screen-history .text-purple-300 {
+      color: #6B21A8 !important;
+    }
+    .light-theme #screen-history .text-cyan-300 {
+      color: #0369A1 !important;
+    }
+    .light-theme #screen-history .text-slate-400 {
+      color: #475569 !important;
+    }
+
+    /* Question / Likert buttons in Light & Dark Mode */
+    .light-theme .likert-btn:not(.selected-likert) {
+      background-color: #FFFFFF !important;
+      border-color: #CBD5E1 !important;
+      color: #1E293B !important;
+    }
+    .light-theme .skill-filter-inactive {
+      background-color: #FFFFFF !important;
+      border-color: #CBD5E1 !important;
+      color: #475569 !important;
+    }
+    .light-theme .top-back-btn {
+      background-color: #FFFFFF !important;
+      border-color: #CBD5E1 !important;
+      color: #1E293B !important;
+    }
+    .light-theme .bg-slate-800 {
+      background-color: #F1F5F9 !important;
+    }
+    .light-theme .border-slate-700 {
+      border-color: #CBD5E1 !important;
+    }
+    .light-theme .border-slate-800 {
+      border-color: #E2E8F0 !important;
+    }
+</style>
+</head>
+<body class="min-h-screen text-slate-100 flex flex-col items-center p-4 antialiased">
+<button onclick="document.body.classList.toggle('light-theme');document.body.classList.toggle('light-theme-active')" class="mb-3 px-3 py-1.5 rounded-xl bg-slate-800 text-amber-300 border border-slate-700 text-xs font-bold">Toggle Light / Dark</button>
+<main id="phone-container" class="relative w-full max-w-[400px] h-[800px] bg-dark-canvas rounded-[46px] overflow-y-auto border border-slate-800 phone-shadow custom-scrollbar">
+<section id="screen-detail" class="screen-view min-h-full flex flex-col justify-between p-6">
+        <div>
+          <!-- Top Bar -->
+          <div class="flex items-center justify-between mb-3">
+            <button onclick="switchScreen('results')" class="w-8 h-8 rounded-lg border border-slate-700 bg-slate-800 flex items-center justify-center text-slate-300">
+              <i class="fa-solid fa-chevron-left text-xs"></i>
+            </button>
+            <span class="text-xs font-bold text-slate-400">Detailed Career Report</span>
+            <button onclick="triggerToast('Career added to your bookmarks!')" class="w-8 h-8 rounded-lg border border-slate-700 bg-slate-800 flex items-center justify-center text-purple-400">
+              <i class="fa-solid fa-bookmark"></i>
+            </button>
+          </div>
+
+          <!-- Career Title Header -->
+          <div class="glass-card rounded-2xl p-4 shadow-sm mb-4 border border-purple-500/20">
+            <div class="flex items-center justify-between mb-1">
+              <span class="detail-category-tag text-[10px] font-bold text-purple-300 bg-purple-500/20 px-2.5 py-0.5 rounded-full border border-purple-400/30">Software & Technology</span>
+              <span class="detail-match-badge text-xs font-extrabold text-cyan-300 bg-cyan-500/20 px-2.5 py-0.5 rounded-full border border-cyan-400/30">94% Match</span>
+            </div>
+            <h2 id="detail-career-title" class="text-xl font-extrabold text-white">Software Engineer</h2>
+            <p class="text-xs text-slate-400 mt-1">
+              Designs, develops, tests, and maintains scalable software applications and computer systems.
+            </p>
+          </div>
+
+                    <!-- Career Hero Visual Banner -->
+          <div class="relative w-full h-28 rounded-2xl overflow-hidden mb-3 border border-cyan-500/30 shadow-lg">
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-700 via-indigo-700 to-cyan-600 flex items-center justify-center"><i class="fa-solid fa-cloud text-white/30 text-5xl"></i></div><!-- NOTE FOR FLUTTER: original had a base64 photo here. Use this gradient + icon instead. -->
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent flex items-end justify-between p-3">
+              <div>
+                <span class="text-[9px] font-extrabold uppercase px-2 py-0.5 rounded bg-purple-500/30 text-purple-200 border border-purple-400/30">Engineering Pathway</span>
+                <h3 class="text-sm font-extrabold text-white mt-0.5">Software Architecture & Cloud</h3>
+              </div>
+              <span class="text-xs font-extrabold text-cyan-300 bg-cyan-500/20 px-2 py-0.5 rounded-full border border-cyan-400/30">High Growth</span>
+            </div>
+          </div>
+
+          <!-- "Why This Fits You" Explainability Card -->
+          <div class="why-fits-card bg-gradient-to-r from-purple-900/30 to-indigo-900/20 border-l-4 border-purple-500 rounded-r-xl p-3.5 mb-4 border border-white/5">
+            <h4 class="text-xs font-bold text-purple-300 flex items-center gap-1.5 mb-1.5">
+              <i class="fa-solid fa-brain text-purple-400"></i> Why This Fits Your Profile
+            </h4>
+            <ul class="text-[11px] text-slate-300 space-y-1">
+              <li class="flex items-start gap-1.5">
+                <i class="fa-solid fa-check text-cyan-400 mt-0.5 text-[10px]"></i>
+                <span>Your high <strong>Analytical & Scientific interest</strong> score matches software engineering research.</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <i class="fa-solid fa-check text-cyan-400 mt-0.5 text-[10px]"></i>
+                <span>Academic grade (<strong>84.5%</strong> in Pre-Engineering) exceeds the 70% admission cutoff.</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <i class="fa-solid fa-check text-cyan-400 mt-0.5 text-[10px]"></i>
+                <span>Strong rating in <strong>Logic & Problem Solving</strong>.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Skill Gap Breakdown (Red / Orange / Green Indicators) -->
+          <div class="mb-4">
+            <div class="flex items-center justify-between mb-2">
+              <h4 class="text-xs font-bold text-white">Skill Gap Analysis</h4>
+              <span class="text-[10px] text-purple-400">2 Gaps to Build</span>
+            </div>
+
+            <div class="space-y-2">
+              <!-- Gap 1: Critical Missing Skill -->
+              <div class="glass-card border-l-4 border-red-500 rounded-r-xl p-3">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-xs font-bold text-white">Data Structures & Algorithms</span>
+                  <span class="text-[9px] font-extrabold uppercase px-2 py-0.5 rounded bg-red-500/20 text-red-400 border border-red-500/30">Needs Attention</span>
+                </div>
+                <div class="flex items-center justify-between text-[10px] text-slate-400 mt-1">
+                  <span>Current: <strong class="text-white">Beginner (1/5)</strong></span>
+                  <span>Required: <strong class="text-white">Advanced (4/5)</strong></span>
+                </div>
+                <div class="w-full bg-slate-800 h-1.5 rounded-full mt-1.5 overflow-hidden">
+                  <div class="bg-red-500 h-full w-[25%]"></div>
+                </div>
+              </div>
+
+              <!-- Gap 2: Moderate Gap -->
+              <div class="glass-card border-l-4 border-amber-500 rounded-r-xl p-3">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-xs font-bold text-white">System Design & Cloud Basics</span>
+                  <span class="text-[9px] font-extrabold uppercase px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">Developing</span>
+                </div>
+                <div class="flex items-center justify-between text-[10px] text-slate-400 mt-1">
+                  <span>Current: <strong class="text-white">Elementary (2/5)</strong></span>
+                  <span>Required: <strong class="text-white">Intermediate (3/5)</strong></span>
+                </div>
+                <div class="w-full bg-slate-800 h-1.5 rounded-full mt-1.5 overflow-hidden">
+                  <div class="bg-amber-500 h-full w-[50%]"></div>
+                </div>
+              </div>
+
+              <!-- Match 3: Strength -->
+              <div class="glass-card border-l-4 border-emerald-500 rounded-r-xl p-3">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-xs font-bold text-white">Python Programming & Logic</span>
+                  <span class="text-[9px] font-extrabold uppercase px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Matched Strength</span>
+                </div>
+                <div class="flex items-center justify-between text-[10px] text-slate-400 mt-1">
+                  <span>Current: <strong class="text-white">Advanced (4/5)</strong></span>
+                  <span>Required: <strong class="text-white">Advanced (4/5)</strong></span>
+                </div>
+                <div class="w-full bg-slate-800 h-1.5 rounded-full mt-1.5 overflow-hidden">
+                  <div class="bg-emerald-500 h-full w-[100%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Curated Free Learning Resources -->
+          <div class="mb-2">
+            <h4 class="text-xs font-bold text-white mb-2">Curated Free Learning Resources</h4>
+            <div class="space-y-1.5">
+              <a href="https://cs50.harvard.edu/x" target="_blank" class="block glass-card rounded-xl p-2.5 hover:border-purple-500/50 transition">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-red-500/20 text-red-400 flex items-center justify-center text-xs border border-red-500/30">
+                      <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                      <h5 class="text-xs font-bold text-slate-200">CS50x: Intro to Computer Science</h5>
+                      <p class="text-[9px] text-slate-400">Harvard University (Free online)</p>
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 text-[10px]"></i>
+                </div>
+              </a>
+
+              <a href="https://roadmap.sh/backend" target="_blank" class="block glass-card rounded-xl p-2.5 hover:border-purple-500/50 transition">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <div class="w-7 h-7 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-xs border border-cyan-500/30">
+                      <i class="fa-solid fa-map"></i>
+                    </div>
+                    <div>
+                      <h5 class="text-xs font-bold text-slate-200">Backend Developer Roadmap</h5>
+                      <p class="text-[9px] text-slate-400">Roadmap.sh (Interactive Step-by-Step)</p>
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 text-[10px]"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-3 border-t border-slate-800">
+          <button onclick="triggerToast('Career pathway added to your roadmap!')" class="w-full py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold text-xs rounded-xl shadow-md glow-purple transition flex items-center justify-center gap-2">
+            <i class="fa-solid fa-plus"></i> Save to My Learning Plan
+          </button>
+        </div>
+      </section>
+</main>
+<script>function switchScreen(){} function triggerToast(m){console.log(m)} function clearHistory(){} function saveCurrentAssessment(){}</script>
+</body></html>

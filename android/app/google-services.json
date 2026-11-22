@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "635506924132",
+    "project_id": "ai-career-advisor-263ce",
+    "storage_bucket": "ai-career-advisor-263ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635506924132:android:112487f4c919e3e93b5d71",
+        "android_client_info": {
+          "package_name": "com.example.ai_career_advisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635506924132-sgvg3hfplqcegca2u11p0o3jahv7f0nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ai_career_advisor",
+            "certificate_hash": "379e82aa05ba61b6a438700e4ea030c08f96788c"
+          }
+        },
+        {
+          "client_id": "635506924132-r9l04iubs240vq50lj73vfbva5j223qn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhME_5nvVVwFGZ0Ya2-VJpjq4Gu2EtqIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635506924132-r9l04iubs240vq50lj73vfbva5j223qn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

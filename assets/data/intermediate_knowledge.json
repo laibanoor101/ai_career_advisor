@@ -1,0 +1,2136 @@
+{
+  "riasec_order": [
+    "R",
+    "I",
+    "A",
+    "S",
+    "E",
+    "C"
+  ],
+  "groups": [
+    {
+      "group": "Pre-Engineering (Math, Physics, Chemistry)",
+      "skills": [
+        {
+          "name": "Mathematics",
+          "category": "Analytical"
+        },
+        {
+          "name": "Physics",
+          "category": "Analytical"
+        },
+        {
+          "name": "Chemistry",
+          "category": "Analytical"
+        },
+        {
+          "name": "English",
+          "category": "Soft"
+        },
+        {
+          "name": "Logic & Problem Solving",
+          "category": "Analytical"
+        },
+        {
+          "name": "Electronics & Hardware",
+          "category": "Tech"
+        },
+        {
+          "name": "Critical Thinking",
+          "category": "Analytical"
+        },
+        {
+          "name": "Technical Drawing & Design",
+          "category": "Tech"
+        },
+        {
+          "name": "Team Collaboration",
+          "category": "Soft"
+        }
+      ],
+      "fields": [
+        {
+          "id": "software-engineering",
+          "title": "Software Engineering",
+          "subtitle": "BS Software Engineering",
+          "riasec_targets": {
+            "R": 2,
+            "I": 5,
+            "A": 2,
+            "S": 2,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Mathematics": 4,
+            "Physics": 3,
+            "Chemistry": 1,
+            "English": 3,
+            "Logic & Problem Solving": 5,
+            "Electronics & Hardware": 2,
+            "Critical Thinking": 4,
+            "Technical Drawing & Design": 2,
+            "Team Collaboration": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Software Engineer",
+            "Backend Developer",
+            "Mobile App Developer"
+          ],
+          "resources": [
+            {
+              "title": "CS50x: Introduction to Computer Science",
+              "provider": "Harvard University",
+              "url": "https://cs50.harvard.edu/x/"
+            },
+            {
+              "title": "Developer roadmaps",
+              "provider": "roadmap.sh",
+              "url": "https://roadmap.sh/"
+            }
+          ]
+        },
+        {
+          "id": "computer-engineering",
+          "title": "Computer Engineering",
+          "subtitle": "BE Computer Engineering",
+          "riasec_targets": {
+            "R": 4,
+            "I": 5,
+            "A": 1,
+            "S": 1,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Mathematics": 5,
+            "Physics": 4,
+            "Chemistry": 2,
+            "English": 3,
+            "Logic & Problem Solving": 5,
+            "Electronics & Hardware": 4,
+            "Critical Thinking": 4,
+            "Technical Drawing & Design": 2,
+            "Team Collaboration": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Embedded Systems Engineer",
+            "Hardware Engineer",
+            "Systems Engineer"
+          ],
+          "resources": [
+            {
+              "title": "CS50x: Introduction to Computer Science",
+              "provider": "Harvard University",
+              "url": "https://cs50.harvard.edu/x/"
+            },
+            {
+              "title": "Electrical engineering",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/electrical-engineering"
+            }
+          ]
+        },
+        {
+          "id": "electrical-engineering",
+          "title": "Electrical Engineering",
+          "subtitle": "BE Electrical Engineering",
+          "riasec_targets": {
+            "R": 4,
+            "I": 5,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Mathematics": 5,
+            "Physics": 5,
+            "Chemistry": 2,
+            "English": 3,
+            "Logic & Problem Solving": 4,
+            "Electronics & Hardware": 5,
+            "Critical Thinking": 4,
+            "Technical Drawing & Design": 3,
+            "Team Collaboration": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Power Systems Engineer",
+            "Control Engineer",
+            "Electrical Design Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Electrical engineering",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/electrical-engineering"
+            },
+            {
+              "title": "Physics",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/physics"
+            }
+          ]
+        },
+        {
+          "id": "electronics-telecom",
+          "title": "Electronics & Telecom Engineering",
+          "subtitle": "BE Electronics / Telecommunication",
+          "riasec_targets": {
+            "R": 4,
+            "I": 5,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Mathematics": 5,
+            "Physics": 4,
+            "Chemistry": 2,
+            "English": 3,
+            "Logic & Problem Solving": 4,
+            "Electronics & Hardware": 5,
+            "Critical Thinking": 4,
+            "Technical Drawing & Design": 3,
+            "Team Collaboration": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Electronics Engineer",
+            "Telecom Engineer",
+            "Network Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Electrical engineering",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/electrical-engineering"
+            },
+            {
+              "title": "Mathematics",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math"
+            }
+          ]
+        },
+        {
+          "id": "mechanical-engineering",
+          "title": "Mechanical Engineering",
+          "subtitle": "BE Mechanical Engineering",
+          "riasec_targets": {
+            "R": 5,
+            "I": 4,
+            "A": 2,
+            "S": 2,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Mathematics": 5,
+            "Physics": 5,
+            "Chemistry": 3,
+            "English": 3,
+            "Logic & Problem Solving": 4,
+            "Electronics & Hardware": 3,
+            "Critical Thinking": 4,
+            "Technical Drawing & Design": 5,
+            "Team Collaboration": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Mechanical Engineer",
+            "Design Engineer",
+            "Manufacturing Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Physics",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/physics"
+            },
+            {
+              "title": "Free university courses",
+              "provider": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/"
+            }
+          ]
+        },
+        {
+          "id": "civil-engineering",
+          "title": "Civil Engineering",
+          "subtitle": "BE Civil Engineering",
+          "riasec_targets": {
+            "R": 5,
+            "I": 3,
+            "A": 2,
+            "S": 2,
+            "E": 3,
+            "C": 3
+          },
+          "skills": {
+            "Mathematics": 4,
+            "Physics": 4,
+            "Chemistry": 3,
+            "English": 3,
+            "Logic & Problem Solving": 4,
+            "Electronics & Hardware": 1,
+            "Critical Thinking": 4,
+            "Technical Drawing & Design": 5,
+            "Team Collaboration": 5
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Civil Engineer",
+            "Structural Engineer",
+            "Construction Manager"
+          ],
+          "resources": [
+            {
+              "title": "Physics",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/physics"
+            },
+            {
+              "title": "Free university courses",
+              "provider": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/"
+            }
+          ]
+        },
+        {
+          "id": "chemical-engineering",
+          "title": "Chemical Engineering",
+          "subtitle": "BE Chemical Engineering",
+          "riasec_targets": {
+            "R": 3,
+            "I": 5,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Mathematics": 4,
+            "Physics": 3,
+            "Chemistry": 5,
+            "English": 3,
+            "Logic & Problem Solving": 4,
+            "Electronics & Hardware": 2,
+            "Critical Thinking": 4,
+            "Technical Drawing & Design": 3,
+            "Team Collaboration": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Process Engineer",
+            "Petrochemical Engineer",
+            "Quality Control Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Chemistry",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/chemistry"
+            },
+            {
+              "title": "Free university courses",
+              "provider": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/"
+            }
+          ]
+        },
+        {
+          "id": "architecture",
+          "title": "Architecture",
+          "subtitle": "B.Arch Architecture",
+          "riasec_targets": {
+            "R": 3,
+            "I": 3,
+            "A": 5,
+            "S": 2,
+            "E": 3,
+            "C": 2
+          },
+          "skills": {
+            "Mathematics": 3,
+            "Physics": 3,
+            "Chemistry": 1,
+            "English": 4,
+            "Logic & Problem Solving": 3,
+            "Electronics & Hardware": 1,
+            "Critical Thinking": 4,
+            "Technical Drawing & Design": 5,
+            "Team Collaboration": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Architect",
+            "Urban Planner",
+            "Interior Architect"
+          ],
+          "resources": [
+            {
+              "title": "Art history",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/humanities/art-history"
+            },
+            {
+              "title": "Free university courses",
+              "provider": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Pre-Medical (Biology, Physics, Chemistry)",
+      "skills": [
+        {
+          "name": "Biology",
+          "category": "Analytical"
+        },
+        {
+          "name": "Chemistry",
+          "category": "Analytical"
+        },
+        {
+          "name": "Physics",
+          "category": "Analytical"
+        },
+        {
+          "name": "Mathematics",
+          "category": "Analytical"
+        },
+        {
+          "name": "English",
+          "category": "Soft"
+        },
+        {
+          "name": "Scientific Research",
+          "category": "Analytical"
+        },
+        {
+          "name": "Critical Thinking",
+          "category": "Analytical"
+        },
+        {
+          "name": "Communication & Empathy",
+          "category": "Soft"
+        },
+        {
+          "name": "Team Collaboration",
+          "category": "Soft"
+        },
+        {
+          "name": "Data Analysis & Statistics",
+          "category": "Analytical"
+        }
+      ],
+      "fields": [
+        {
+          "id": "mbbs",
+          "title": "Medicine (MBBS)",
+          "subtitle": "MBBS Doctor of Medicine",
+          "riasec_targets": {
+            "R": 2,
+            "I": 5,
+            "A": 1,
+            "S": 5,
+            "E": 3,
+            "C": 3
+          },
+          "skills": {
+            "Biology": 5,
+            "Chemistry": 5,
+            "Physics": 4,
+            "Mathematics": 3,
+            "English": 4,
+            "Scientific Research": 4,
+            "Critical Thinking": 5,
+            "Communication & Empathy": 5,
+            "Team Collaboration": 5,
+            "Data Analysis & Statistics": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Doctor",
+            "Surgeon",
+            "Medical Specialist"
+          ],
+          "resources": [
+            {
+              "title": "Health and medicine",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/health-and-medicine"
+            },
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            }
+          ]
+        },
+        {
+          "id": "dentistry",
+          "title": "Dentistry (BDS)",
+          "subtitle": "BDS Dental Surgery",
+          "riasec_targets": {
+            "R": 4,
+            "I": 4,
+            "A": 3,
+            "S": 4,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Biology": 5,
+            "Chemistry": 4,
+            "Physics": 3,
+            "Mathematics": 3,
+            "English": 4,
+            "Scientific Research": 3,
+            "Critical Thinking": 4,
+            "Communication & Empathy": 4,
+            "Team Collaboration": 4,
+            "Data Analysis & Statistics": 2
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Dentist",
+            "Orthodontist",
+            "Oral Surgeon"
+          ],
+          "resources": [
+            {
+              "title": "Health and medicine",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/health-and-medicine"
+            },
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            }
+          ]
+        },
+        {
+          "id": "pharmacy",
+          "title": "Pharmacy (Pharm-D)",
+          "subtitle": "Pharm-D Doctor of Pharmacy",
+          "riasec_targets": {
+            "R": 2,
+            "I": 5,
+            "A": 1,
+            "S": 3,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Biology": 4,
+            "Chemistry": 5,
+            "Physics": 3,
+            "Mathematics": 3,
+            "English": 4,
+            "Scientific Research": 4,
+            "Critical Thinking": 4,
+            "Communication & Empathy": 3,
+            "Team Collaboration": 3,
+            "Data Analysis & Statistics": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Pharmacist",
+            "Clinical Pharmacist",
+            "Drug Safety Officer"
+          ],
+          "resources": [
+            {
+              "title": "Chemistry",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/chemistry"
+            },
+            {
+              "title": "Health and medicine",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/health-and-medicine"
+            }
+          ]
+        },
+        {
+          "id": "physical-therapy",
+          "title": "Physical Therapy (DPT)",
+          "subtitle": "DPT Doctor of Physical Therapy",
+          "riasec_targets": {
+            "R": 4,
+            "I": 4,
+            "A": 1,
+            "S": 5,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Biology": 4,
+            "Chemistry": 3,
+            "Physics": 3,
+            "Mathematics": 2,
+            "English": 4,
+            "Scientific Research": 3,
+            "Critical Thinking": 4,
+            "Communication & Empathy": 5,
+            "Team Collaboration": 5,
+            "Data Analysis & Statistics": 2
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Physiotherapist",
+            "Rehabilitation Specialist",
+            "Sports Therapist"
+          ],
+          "resources": [
+            {
+              "title": "Health and medicine",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/health-and-medicine"
+            },
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            }
+          ]
+        },
+        {
+          "id": "radiology",
+          "title": "Radiology & Medical Imaging",
+          "subtitle": "BS Radiology / Medical Imaging",
+          "riasec_targets": {
+            "R": 4,
+            "I": 5,
+            "A": 1,
+            "S": 3,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Biology": 3,
+            "Chemistry": 3,
+            "Physics": 5,
+            "Mathematics": 3,
+            "English": 4,
+            "Scientific Research": 4,
+            "Critical Thinking": 4,
+            "Communication & Empathy": 3,
+            "Team Collaboration": 4,
+            "Data Analysis & Statistics": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Radiographer",
+            "Imaging Technologist",
+            "Sonographer"
+          ],
+          "resources": [
+            {
+              "title": "Physics",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/physics"
+            },
+            {
+              "title": "Health and medicine",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/health-and-medicine"
+            }
+          ]
+        },
+        {
+          "id": "nursing",
+          "title": "Nursing",
+          "subtitle": "BS Nursing",
+          "riasec_targets": {
+            "R": 3,
+            "I": 3,
+            "A": 1,
+            "S": 5,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Biology": 4,
+            "Chemistry": 3,
+            "Physics": 2,
+            "Mathematics": 2,
+            "English": 4,
+            "Scientific Research": 2,
+            "Critical Thinking": 4,
+            "Communication & Empathy": 5,
+            "Team Collaboration": 5,
+            "Data Analysis & Statistics": 2
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Registered Nurse",
+            "Nurse Practitioner",
+            "Community Health Nurse"
+          ],
+          "resources": [
+            {
+              "title": "Health and medicine",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/health-and-medicine"
+            },
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            }
+          ]
+        },
+        {
+          "id": "medical-lab",
+          "title": "Medical Laboratory Technology",
+          "subtitle": "BS Medical Laboratory Technology",
+          "riasec_targets": {
+            "R": 4,
+            "I": 5,
+            "A": 1,
+            "S": 2,
+            "E": 1,
+            "C": 5
+          },
+          "skills": {
+            "Biology": 4,
+            "Chemistry": 5,
+            "Physics": 3,
+            "Mathematics": 3,
+            "English": 3,
+            "Scientific Research": 4,
+            "Critical Thinking": 4,
+            "Communication & Empathy": 2,
+            "Team Collaboration": 3,
+            "Data Analysis & Statistics": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Medical Lab Technologist",
+            "Pathology Lab Specialist",
+            "Clinical Lab Scientist"
+          ],
+          "resources": [
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            },
+            {
+              "title": "Chemistry",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/chemistry"
+            }
+          ]
+        },
+        {
+          "id": "biotechnology",
+          "title": "Biotechnology",
+          "subtitle": "BS Biotechnology",
+          "riasec_targets": {
+            "R": 3,
+            "I": 5,
+            "A": 2,
+            "S": 2,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Biology": 5,
+            "Chemistry": 5,
+            "Physics": 3,
+            "Mathematics": 4,
+            "English": 4,
+            "Scientific Research": 5,
+            "Critical Thinking": 4,
+            "Communication & Empathy": 2,
+            "Team Collaboration": 4,
+            "Data Analysis & Statistics": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Biotechnologist",
+            "Research Scientist",
+            "Genetics Researcher"
+          ],
+          "resources": [
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            },
+            {
+              "title": "Free university courses",
+              "provider": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/"
+            }
+          ]
+        },
+        {
+          "id": "psychology-med",
+          "title": "Psychology",
+          "subtitle": "BS Psychology",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 3,
+            "S": 5,
+            "E": 2,
+            "C": 2
+          },
+          "skills": {
+            "Biology": 4,
+            "Chemistry": 2,
+            "Physics": 1,
+            "Mathematics": 3,
+            "English": 5,
+            "Scientific Research": 4,
+            "Critical Thinking": 5,
+            "Communication & Empathy": 5,
+            "Team Collaboration": 4,
+            "Data Analysis & Statistics": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Clinical Psychologist",
+            "Counselor",
+            "Behavioral Researcher"
+          ],
+          "resources": [
+            {
+              "title": "Psychology and behavior",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/test-prep/mcat/behavior"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "ICS (Computer Science, Math, Physics)",
+      "skills": [
+        {
+          "name": "Computer Science",
+          "category": "Tech"
+        },
+        {
+          "name": "Mathematics",
+          "category": "Analytical"
+        },
+        {
+          "name": "Physics",
+          "category": "Analytical"
+        },
+        {
+          "name": "English",
+          "category": "Soft"
+        },
+        {
+          "name": "Logic & Problem Solving",
+          "category": "Analytical"
+        },
+        {
+          "name": "Python Programming",
+          "category": "Tech"
+        },
+        {
+          "name": "Web Development Basics",
+          "category": "Tech"
+        },
+        {
+          "name": "Database Querying (SQL)",
+          "category": "Tech"
+        },
+        {
+          "name": "System Design & Algorithms",
+          "category": "Tech"
+        },
+        {
+          "name": "Data Analysis & Statistics",
+          "category": "Analytical"
+        },
+        {
+          "name": "Graphic Design & UI/UX",
+          "category": "Tech"
+        },
+        {
+          "name": "Team Collaboration",
+          "category": "Soft"
+        }
+      ],
+      "fields": [
+        {
+          "id": "software-eng-ics",
+          "title": "Software Engineering",
+          "subtitle": "BS Software Engineering",
+          "riasec_targets": {
+            "R": 2,
+            "I": 5,
+            "A": 2,
+            "S": 2,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Computer Science": 5,
+            "Mathematics": 4,
+            "Physics": 2,
+            "English": 3,
+            "Logic & Problem Solving": 5,
+            "Python Programming": 5,
+            "Web Development Basics": 4,
+            "Database Querying (SQL)": 4,
+            "System Design & Algorithms": 5,
+            "Data Analysis & Statistics": 3,
+            "Graphic Design & UI/UX": 2,
+            "Team Collaboration": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Software Engineer",
+            "Full-Stack Developer",
+            "Mobile App Developer"
+          ],
+          "resources": [
+            {
+              "title": "CS50x: Introduction to Computer Science",
+              "provider": "Harvard University",
+              "url": "https://cs50.harvard.edu/x/"
+            },
+            {
+              "title": "Developer roadmaps",
+              "provider": "roadmap.sh",
+              "url": "https://roadmap.sh/"
+            }
+          ]
+        },
+        {
+          "id": "computer-science",
+          "title": "Computer Science",
+          "subtitle": "BS Computer Science",
+          "riasec_targets": {
+            "R": 2,
+            "I": 5,
+            "A": 2,
+            "S": 1,
+            "E": 1,
+            "C": 3
+          },
+          "skills": {
+            "Computer Science": 5,
+            "Mathematics": 5,
+            "Physics": 2,
+            "English": 3,
+            "Logic & Problem Solving": 5,
+            "Python Programming": 5,
+            "Web Development Basics": 3,
+            "Database Querying (SQL)": 4,
+            "System Design & Algorithms": 5,
+            "Data Analysis & Statistics": 4,
+            "Graphic Design & UI/UX": 1,
+            "Team Collaboration": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Software Developer",
+            "Algorithm Engineer",
+            "Research Scientist"
+          ],
+          "resources": [
+            {
+              "title": "CS50x: Introduction to Computer Science",
+              "provider": "Harvard University",
+              "url": "https://cs50.harvard.edu/x/"
+            },
+            {
+              "title": "Algorithms",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-science/algorithms"
+            }
+          ]
+        },
+        {
+          "id": "data-science",
+          "title": "Data Science",
+          "subtitle": "BS Data Science",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 2,
+            "S": 2,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Computer Science": 4,
+            "Mathematics": 5,
+            "Physics": 2,
+            "English": 3,
+            "Logic & Problem Solving": 5,
+            "Python Programming": 5,
+            "Web Development Basics": 2,
+            "Database Querying (SQL)": 5,
+            "System Design & Algorithms": 4,
+            "Data Analysis & Statistics": 5,
+            "Graphic Design & UI/UX": 1,
+            "Team Collaboration": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Data Scientist",
+            "Data Analyst",
+            "Machine Learning Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            },
+            {
+              "title": "Intro to SQL",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-programming/sql"
+            }
+          ]
+        },
+        {
+          "id": "artificial-intelligence",
+          "title": "Artificial Intelligence",
+          "subtitle": "BS Artificial Intelligence",
+          "riasec_targets": {
+            "R": 2,
+            "I": 5,
+            "A": 2,
+            "S": 1,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Computer Science": 5,
+            "Mathematics": 5,
+            "Physics": 3,
+            "English": 3,
+            "Logic & Problem Solving": 5,
+            "Python Programming": 5,
+            "Web Development Basics": 2,
+            "Database Querying (SQL)": 4,
+            "System Design & Algorithms": 5,
+            "Data Analysis & Statistics": 5,
+            "Graphic Design & UI/UX": 1,
+            "Team Collaboration": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "AI Engineer",
+            "ML Engineer",
+            "Research Engineer"
+          ],
+          "resources": [
+            {
+              "title": "CS50x: Introduction to Computer Science",
+              "provider": "Harvard University",
+              "url": "https://cs50.harvard.edu/x/"
+            },
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            }
+          ]
+        },
+        {
+          "id": "cyber-security",
+          "title": "Cyber Security",
+          "subtitle": "BS Cyber Security",
+          "riasec_targets": {
+            "R": 3,
+            "I": 5,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Computer Science": 4,
+            "Mathematics": 4,
+            "Physics": 2,
+            "English": 3,
+            "Logic & Problem Solving": 5,
+            "Python Programming": 4,
+            "Web Development Basics": 3,
+            "Database Querying (SQL)": 4,
+            "System Design & Algorithms": 5,
+            "Data Analysis & Statistics": 3,
+            "Graphic Design & UI/UX": 1,
+            "Team Collaboration": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Security Analyst",
+            "Penetration Tester",
+            "Security Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Computer science",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-science"
+            },
+            {
+              "title": "Developer roadmaps",
+              "provider": "roadmap.sh",
+              "url": "https://roadmap.sh/"
+            }
+          ]
+        },
+        {
+          "id": "information-technology",
+          "title": "Information Technology",
+          "subtitle": "BS Information Technology",
+          "riasec_targets": {
+            "R": 3,
+            "I": 4,
+            "A": 2,
+            "S": 3,
+            "E": 3,
+            "C": 4
+          },
+          "skills": {
+            "Computer Science": 4,
+            "Mathematics": 3,
+            "Physics": 2,
+            "English": 4,
+            "Logic & Problem Solving": 4,
+            "Python Programming": 4,
+            "Web Development Basics": 4,
+            "Database Querying (SQL)": 5,
+            "System Design & Algorithms": 3,
+            "Data Analysis & Statistics": 3,
+            "Graphic Design & UI/UX": 2,
+            "Team Collaboration": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "IT Specialist",
+            "Network Administrator",
+            "Systems Administrator"
+          ],
+          "resources": [
+            {
+              "title": "Computer science",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-science"
+            },
+            {
+              "title": "Learn to code for free",
+              "provider": "freeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            }
+          ]
+        },
+        {
+          "id": "web-ui-ux",
+          "title": "Web & UI/UX Design",
+          "subtitle": "BS Web Design / Multimedia",
+          "riasec_targets": {
+            "R": 2,
+            "I": 3,
+            "A": 5,
+            "S": 3,
+            "E": 3,
+            "C": 2
+          },
+          "skills": {
+            "Computer Science": 3,
+            "Mathematics": 2,
+            "Physics": 1,
+            "English": 4,
+            "Logic & Problem Solving": 3,
+            "Python Programming": 3,
+            "Web Development Basics": 5,
+            "Database Querying (SQL)": 3,
+            "System Design & Algorithms": 2,
+            "Data Analysis & Statistics": 2,
+            "Graphic Design & UI/UX": 5,
+            "Team Collaboration": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "UI/UX Designer",
+            "Front-End Developer",
+            "Web Designer"
+          ],
+          "resources": [
+            {
+              "title": "Learn to code for free",
+              "provider": "freeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            },
+            {
+              "title": "Computer programming",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-programming"
+            }
+          ]
+        },
+        {
+          "id": "information-systems",
+          "title": "Information Systems",
+          "subtitle": "BS Information Systems",
+          "riasec_targets": {
+            "R": 1,
+            "I": 4,
+            "A": 2,
+            "S": 3,
+            "E": 4,
+            "C": 5
+          },
+          "skills": {
+            "Computer Science": 3,
+            "Mathematics": 3,
+            "Physics": 1,
+            "English": 5,
+            "Logic & Problem Solving": 4,
+            "Python Programming": 3,
+            "Web Development Basics": 3,
+            "Database Querying (SQL)": 5,
+            "System Design & Algorithms": 3,
+            "Data Analysis & Statistics": 4,
+            "Graphic Design & UI/UX": 2,
+            "Team Collaboration": 5
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Business Systems Analyst",
+            "Database Administrator",
+            "IT Project Coordinator"
+          ],
+          "resources": [
+            {
+              "title": "Intro to SQL",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-programming/sql"
+            },
+            {
+              "title": "Entrepreneurship",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/entrepreneurship2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "I.Com (Commerce, Economics, Accounting)",
+      "skills": [
+        {
+          "name": "Accounting & Finance",
+          "category": "Analytical"
+        },
+        {
+          "name": "Economics",
+          "category": "Analytical"
+        },
+        {
+          "name": "Business Studies",
+          "category": "Soft"
+        },
+        {
+          "name": "Mathematics",
+          "category": "Analytical"
+        },
+        {
+          "name": "English",
+          "category": "Soft"
+        },
+        {
+          "name": "Data Analysis & Statistics",
+          "category": "Analytical"
+        },
+        {
+          "name": "Public Speaking",
+          "category": "Soft"
+        },
+        {
+          "name": "Critical Thinking",
+          "category": "Analytical"
+        },
+        {
+          "name": "Team Collaboration",
+          "category": "Soft"
+        },
+        {
+          "name": "Project Management",
+          "category": "Soft"
+        }
+      ],
+      "fields": [
+        {
+          "id": "bba",
+          "title": "Business Administration",
+          "subtitle": "BBA Business Administration",
+          "riasec_targets": {
+            "R": 1,
+            "I": 3,
+            "A": 2,
+            "S": 4,
+            "E": 5,
+            "C": 3
+          },
+          "skills": {
+            "Accounting & Finance": 3,
+            "Economics": 3,
+            "Business Studies": 5,
+            "Mathematics": 3,
+            "English": 4,
+            "Data Analysis & Statistics": 3,
+            "Public Speaking": 4,
+            "Critical Thinking": 4,
+            "Team Collaboration": 5,
+            "Project Management": 5
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Business Manager",
+            "Entrepreneur",
+            "Operations Manager"
+          ],
+          "resources": [
+            {
+              "title": "Entrepreneurship",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/entrepreneurship2"
+            },
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            }
+          ]
+        },
+        {
+          "id": "accounting-finance",
+          "title": "Accounting & Finance",
+          "subtitle": "BS Accounting & Finance",
+          "riasec_targets": {
+            "R": 1,
+            "I": 3,
+            "A": 1,
+            "S": 2,
+            "E": 3,
+            "C": 5
+          },
+          "skills": {
+            "Accounting & Finance": 5,
+            "Economics": 3,
+            "Business Studies": 4,
+            "Mathematics": 4,
+            "English": 3,
+            "Data Analysis & Statistics": 4,
+            "Public Speaking": 2,
+            "Critical Thinking": 4,
+            "Team Collaboration": 3,
+            "Project Management": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Accountant",
+            "Financial Analyst",
+            "Auditor"
+          ],
+          "resources": [
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            },
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            }
+          ]
+        },
+        {
+          "id": "economics",
+          "title": "Economics",
+          "subtitle": "BS Economics",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 2,
+            "S": 3,
+            "E": 3,
+            "C": 3
+          },
+          "skills": {
+            "Accounting & Finance": 3,
+            "Economics": 5,
+            "Business Studies": 3,
+            "Mathematics": 4,
+            "English": 4,
+            "Data Analysis & Statistics": 5,
+            "Public Speaking": 3,
+            "Critical Thinking": 5,
+            "Team Collaboration": 3,
+            "Project Management": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Economist",
+            "Policy Analyst",
+            "Research Analyst"
+          ],
+          "resources": [
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            },
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            }
+          ]
+        },
+        {
+          "id": "banking-finance",
+          "title": "Banking & Finance",
+          "subtitle": "BS Banking & Finance",
+          "riasec_targets": {
+            "R": 1,
+            "I": 3,
+            "A": 1,
+            "S": 3,
+            "E": 4,
+            "C": 5
+          },
+          "skills": {
+            "Accounting & Finance": 5,
+            "Economics": 4,
+            "Business Studies": 4,
+            "Mathematics": 4,
+            "English": 4,
+            "Data Analysis & Statistics": 4,
+            "Public Speaking": 3,
+            "Critical Thinking": 4,
+            "Team Collaboration": 3,
+            "Project Management": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Banker",
+            "Investment Analyst",
+            "Credit Analyst"
+          ],
+          "resources": [
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "marketing-sales",
+          "title": "Marketing & Sales",
+          "subtitle": "BS Marketing",
+          "riasec_targets": {
+            "R": 1,
+            "I": 2,
+            "A": 4,
+            "S": 4,
+            "E": 5,
+            "C": 2
+          },
+          "skills": {
+            "Accounting & Finance": 2,
+            "Economics": 3,
+            "Business Studies": 5,
+            "Mathematics": 2,
+            "English": 5,
+            "Data Analysis & Statistics": 3,
+            "Public Speaking": 5,
+            "Critical Thinking": 3,
+            "Team Collaboration": 5,
+            "Project Management": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Marketing Executive",
+            "Brand Manager",
+            "Sales Manager"
+          ],
+          "resources": [
+            {
+              "title": "Entrepreneurship",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/entrepreneurship2"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "business-analytics",
+          "title": "Business Analytics",
+          "subtitle": "BS Business Analytics",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 2,
+            "S": 2,
+            "E": 3,
+            "C": 4
+          },
+          "skills": {
+            "Accounting & Finance": 4,
+            "Economics": 4,
+            "Business Studies": 4,
+            "Mathematics": 5,
+            "English": 4,
+            "Data Analysis & Statistics": 5,
+            "Public Speaking": 2,
+            "Critical Thinking": 5,
+            "Team Collaboration": 3,
+            "Project Management": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Business Analyst",
+            "Data Analyst",
+            "Operations Analyst"
+          ],
+          "resources": [
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            },
+            {
+              "title": "Intro to SQL",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-programming/sql"
+            }
+          ]
+        },
+        {
+          "id": "professional-accountancy",
+          "title": "Professional Accountancy (CA / ACCA)",
+          "subtitle": "CA / ACCA Professional Accountancy",
+          "riasec_targets": {
+            "R": 1,
+            "I": 3,
+            "A": 1,
+            "S": 2,
+            "E": 3,
+            "C": 5
+          },
+          "skills": {
+            "Accounting & Finance": 5,
+            "Economics": 3,
+            "Business Studies": 4,
+            "Mathematics": 4,
+            "English": 4,
+            "Data Analysis & Statistics": 4,
+            "Public Speaking": 2,
+            "Critical Thinking": 5,
+            "Team Collaboration": 3,
+            "Project Management": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Chartered Accountant",
+            "Auditor",
+            "Tax Consultant"
+          ],
+          "resources": [
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "human-resources",
+          "title": "Human Resource Management",
+          "subtitle": "BS Human Resource Management",
+          "riasec_targets": {
+            "R": 1,
+            "I": 2,
+            "A": 2,
+            "S": 5,
+            "E": 4,
+            "C": 3
+          },
+          "skills": {
+            "Accounting & Finance": 2,
+            "Economics": 2,
+            "Business Studies": 5,
+            "Mathematics": 2,
+            "English": 5,
+            "Data Analysis & Statistics": 2,
+            "Public Speaking": 5,
+            "Critical Thinking": 3,
+            "Team Collaboration": 5,
+            "Project Management": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "HR Manager",
+            "Recruitment Specialist",
+            "Training Coordinator"
+          ],
+          "resources": [
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            },
+            {
+              "title": "Entrepreneurship",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/entrepreneurship2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Humanities / Arts",
+      "skills": [
+        {
+          "name": "English",
+          "category": "Soft"
+        },
+        {
+          "name": "Psychology",
+          "category": "Analytical"
+        },
+        {
+          "name": "Sociology",
+          "category": "Analytical"
+        },
+        {
+          "name": "Civics & Political Science",
+          "category": "Analytical"
+        },
+        {
+          "name": "Economics",
+          "category": "Analytical"
+        },
+        {
+          "name": "History",
+          "category": "Analytical"
+        },
+        {
+          "name": "Education",
+          "category": "Soft"
+        },
+        {
+          "name": "Fine Arts",
+          "category": "Soft"
+        },
+        {
+          "name": "Home Economics",
+          "category": "Soft"
+        },
+        {
+          "name": "Public Speaking",
+          "category": "Soft"
+        },
+        {
+          "name": "Critical Thinking",
+          "category": "Analytical"
+        },
+        {
+          "name": "Creative Writing",
+          "category": "Soft"
+        }
+      ],
+      "fields": [
+        {
+          "id": "psychology-arts",
+          "title": "Psychology",
+          "subtitle": "BS Psychology",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 3,
+            "S": 5,
+            "E": 2,
+            "C": 2
+          },
+          "skills": {
+            "English": 4,
+            "Psychology": 5,
+            "Sociology": 4,
+            "Civics & Political Science": 2,
+            "Economics": 2,
+            "History": 2,
+            "Education": 3,
+            "Fine Arts": 1,
+            "Home Economics": 1,
+            "Public Speaking": 4,
+            "Critical Thinking": 5,
+            "Creative Writing": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Psychologist",
+            "Counselor",
+            "Human Resource Specialist"
+          ],
+          "resources": [
+            {
+              "title": "Psychology and behavior",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/test-prep/mcat/behavior"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "subtitle": "LLB Law",
+          "riasec_targets": {
+            "R": 1,
+            "I": 4,
+            "A": 2,
+            "S": 3,
+            "E": 5,
+            "C": 4
+          },
+          "skills": {
+            "English": 5,
+            "Psychology": 2,
+            "Sociology": 3,
+            "Civics & Political Science": 5,
+            "Economics": 3,
+            "History": 4,
+            "Education": 2,
+            "Fine Arts": 1,
+            "Home Economics": 1,
+            "Public Speaking": 5,
+            "Critical Thinking": 5,
+            "Creative Writing": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Lawyer",
+            "Legal Advisor",
+            "Judge"
+          ],
+          "resources": [
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            },
+            {
+              "title": "Grammar",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/humanities/grammar"
+            }
+          ]
+        },
+        {
+          "id": "mass-communication",
+          "title": "Mass Communication & Journalism",
+          "subtitle": "BS Mass Communication",
+          "riasec_targets": {
+            "R": 1,
+            "I": 3,
+            "A": 5,
+            "S": 4,
+            "E": 4,
+            "C": 2
+          },
+          "skills": {
+            "English": 5,
+            "Psychology": 3,
+            "Sociology": 3,
+            "Civics & Political Science": 4,
+            "Economics": 3,
+            "History": 3,
+            "Education": 2,
+            "Fine Arts": 3,
+            "Home Economics": 1,
+            "Public Speaking": 5,
+            "Critical Thinking": 4,
+            "Creative Writing": 5
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Journalist",
+            "Content Creator",
+            "Media Producer"
+          ],
+          "resources": [
+            {
+              "title": "Grammar",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/humanities/grammar"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "international-relations",
+          "title": "International Relations",
+          "subtitle": "BS International Relations",
+          "riasec_targets": {
+            "R": 1,
+            "I": 4,
+            "A": 2,
+            "S": 4,
+            "E": 4,
+            "C": 3
+          },
+          "skills": {
+            "English": 5,
+            "Psychology": 2,
+            "Sociology": 4,
+            "Civics & Political Science": 5,
+            "Economics": 4,
+            "History": 5,
+            "Education": 2,
+            "Fine Arts": 1,
+            "Home Economics": 1,
+            "Public Speaking": 5,
+            "Critical Thinking": 5,
+            "Creative Writing": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Diplomat",
+            "International Affairs Analyst",
+            "NGO Program Officer"
+          ],
+          "resources": [
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            },
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            }
+          ]
+        },
+        {
+          "id": "public-policy",
+          "title": "Public Policy & Political Science",
+          "subtitle": "BS Political Science",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 2,
+            "S": 4,
+            "E": 4,
+            "C": 3
+          },
+          "skills": {
+            "English": 4,
+            "Psychology": 3,
+            "Sociology": 4,
+            "Civics & Political Science": 5,
+            "Economics": 5,
+            "History": 4,
+            "Education": 3,
+            "Fine Arts": 1,
+            "Home Economics": 1,
+            "Public Speaking": 4,
+            "Critical Thinking": 5,
+            "Creative Writing": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Policy Analyst",
+            "Civil Servant",
+            "Political Researcher"
+          ],
+          "resources": [
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            },
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            }
+          ]
+        },
+        {
+          "id": "sociology-social-work",
+          "title": "Sociology & Social Work",
+          "subtitle": "BS Sociology / Social Work",
+          "riasec_targets": {
+            "R": 1,
+            "I": 4,
+            "A": 2,
+            "S": 5,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "English": 4,
+            "Psychology": 4,
+            "Sociology": 5,
+            "Civics & Political Science": 4,
+            "Economics": 3,
+            "History": 3,
+            "Education": 4,
+            "Fine Arts": 1,
+            "Home Economics": 2,
+            "Public Speaking": 4,
+            "Critical Thinking": 4,
+            "Creative Writing": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Social Worker",
+            "Community Development Officer",
+            "Sociologist"
+          ],
+          "resources": [
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            },
+            {
+              "title": "Psychology and behavior",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/test-prep/mcat/behavior"
+            }
+          ]
+        },
+        {
+          "id": "education",
+          "title": "Education & Teaching",
+          "subtitle": "BEd / BS Education",
+          "riasec_targets": {
+            "R": 1,
+            "I": 3,
+            "A": 3,
+            "S": 5,
+            "E": 3,
+            "C": 3
+          },
+          "skills": {
+            "English": 5,
+            "Psychology": 3,
+            "Sociology": 3,
+            "Civics & Political Science": 3,
+            "Economics": 2,
+            "History": 3,
+            "Education": 5,
+            "Fine Arts": 3,
+            "Home Economics": 3,
+            "Public Speaking": 5,
+            "Critical Thinking": 4,
+            "Creative Writing": 3
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Teacher",
+            "Educational Counselor",
+            "Curriculum Developer"
+          ],
+          "resources": [
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            },
+            {
+              "title": "Psychology and behavior",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/test-prep/mcat/behavior"
+            }
+          ]
+        },
+        {
+          "id": "english-literature",
+          "title": "English Literature & Linguistics",
+          "subtitle": "BS English Literature",
+          "riasec_targets": {
+            "R": 1,
+            "I": 4,
+            "A": 5,
+            "S": 3,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "English": 5,
+            "Psychology": 3,
+            "Sociology": 2,
+            "Civics & Political Science": 2,
+            "Economics": 1,
+            "History": 4,
+            "Education": 3,
+            "Fine Arts": 3,
+            "Home Economics": 1,
+            "Public Speaking": 4,
+            "Critical Thinking": 4,
+            "Creative Writing": 5
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Writer",
+            "Editor",
+            "Translator"
+          ],
+          "resources": [
+            {
+              "title": "Grammar",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/humanities/grammar"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "fine-arts-design",
+          "title": "Fine Arts & Design",
+          "subtitle": "BFA Fine Arts / Design",
+          "riasec_targets": {
+            "R": 3,
+            "I": 2,
+            "A": 5,
+            "S": 3,
+            "E": 3,
+            "C": 2
+          },
+          "skills": {
+            "English": 3,
+            "Psychology": 1,
+            "Sociology": 1,
+            "Civics & Political Science": 1,
+            "Economics": 2,
+            "History": 3,
+            "Education": 2,
+            "Fine Arts": 5,
+            "Home Economics": 2,
+            "Public Speaking": 3,
+            "Critical Thinking": 3,
+            "Creative Writing": 4
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Graphic Designer",
+            "Illustrator",
+            "Art Director"
+          ],
+          "resources": [
+            {
+              "title": "Art history",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/humanities/art-history"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "home-economics",
+          "title": "Home Economics (Food, Nutrition & Textiles)",
+          "subtitle": "BS Home Economics",
+          "riasec_targets": {
+            "R": 4,
+            "I": 2,
+            "A": 4,
+            "S": 4,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "English": 3,
+            "Psychology": 2,
+            "Sociology": 2,
+            "Civics & Political Science": 1,
+            "Economics": 2,
+            "History": 1,
+            "Education": 3,
+            "Fine Arts": 4,
+            "Home Economics": 5,
+            "Public Speaking": 2,
+            "Critical Thinking": 3,
+            "Creative Writing": 2
+          },
+          "reason_template": "Your interests and strengths in this group's subjects fit the {subtitle} path.",
+          "careers": [
+            "Nutrition Assistant",
+            "Fashion / Textile Designer",
+            "Home Economics Teacher"
+          ],
+          "resources": [
+            {
+              "title": "Health and medicine",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/health-and-medicine"
+            },
+            {
+              "title": "Art history",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/humanities/art-history"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1807 @@
+{
+  "riasec_order": [
+    "R",
+    "I",
+    "A",
+    "S",
+    "E",
+    "C"
+  ],
+  "groups": [
+    {
+      "group": "BS Software Engineering / Computer Science",
+      "skills": [
+        {
+          "name": "Programming Fundamentals",
+          "category": "Tech",
+          "hint": "Python, C++ or Java"
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "category": "Tech",
+          "hint": "DSA"
+        },
+        {
+          "name": "Object-Oriented Programming",
+          "category": "Tech",
+          "hint": "OOP"
+        },
+        {
+          "name": "Database Management",
+          "category": "Tech",
+          "hint": "SQL & NoSQL, e.g. MySQL, SQL Server, MongoDB"
+        },
+        {
+          "name": "Version Control",
+          "category": "Tech",
+          "hint": "Git & GitHub"
+        },
+        {
+          "name": "Web Development Basics",
+          "category": "Tech",
+          "hint": "HTML5, CSS3, JavaScript"
+        },
+        {
+          "name": "Mobile App Development",
+          "category": "Tech",
+          "hint": "Flutter or React Native"
+        },
+        {
+          "name": "RESTful APIs & Backend Integration",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "SDLC & Agile/Scrum",
+          "category": "Soft",
+          "hint": "Software development life cycle"
+        },
+        {
+          "name": "UI/UX Design & Prototyping",
+          "category": "Tech",
+          "hint": "e.g. Figma"
+        },
+        {
+          "name": "Operating Systems & Linux",
+          "category": "Tech",
+          "hint": "Linux command line"
+        },
+        {
+          "name": "Software Testing & Debugging",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "Cloud Computing Basics",
+          "category": "Tech",
+          "hint": "AWS, Firebase or Azure"
+        },
+        {
+          "name": "Problem Solving & Analytical Thinking",
+          "category": "Analytical",
+          "hint": ""
+        }
+      ],
+      "fields": [
+        {
+          "id": "full-stack-web-developer",
+          "title": "Full-Stack Web Developer",
+          "subtitle": "Software Engineering / Computer Science",
+          "riasec_targets": {
+            "R": 2,
+            "I": 4,
+            "A": 3,
+            "S": 2,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Programming Fundamentals": 4,
+            "Data Structures & Algorithms": 3,
+            "Object-Oriented Programming": 4,
+            "Database Management": 4,
+            "Version Control": 4,
+            "Web Development Basics": 5,
+            "Mobile App Development": 2,
+            "RESTful APIs & Backend Integration": 5,
+            "SDLC & Agile/Scrum": 3,
+            "UI/UX Design & Prototyping": 3,
+            "Operating Systems & Linux": 3,
+            "Software Testing & Debugging": 3,
+            "Cloud Computing Basics": 3,
+            "Problem Solving & Analytical Thinking": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Front-End Developer",
+            "Back-End Developer",
+            "Web Application Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Learn to code for free",
+              "provider": "freeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            },
+            {
+              "title": "Developer roadmaps",
+              "provider": "roadmap.sh",
+              "url": "https://roadmap.sh/"
+            }
+          ]
+        },
+        {
+          "id": "mobile-app-developer",
+          "title": "Mobile App Developer",
+          "subtitle": "Software Engineering / Computer Science",
+          "riasec_targets": {
+            "R": 2,
+            "I": 4,
+            "A": 3,
+            "S": 2,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Programming Fundamentals": 4,
+            "Data Structures & Algorithms": 3,
+            "Object-Oriented Programming": 5,
+            "Database Management": 3,
+            "Version Control": 4,
+            "Web Development Basics": 3,
+            "Mobile App Development": 5,
+            "RESTful APIs & Backend Integration": 4,
+            "SDLC & Agile/Scrum": 3,
+            "UI/UX Design & Prototyping": 4,
+            "Operating Systems & Linux": 2,
+            "Software Testing & Debugging": 3,
+            "Cloud Computing Basics": 4,
+            "Problem Solving & Analytical Thinking": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Flutter Developer",
+            "Android/iOS Developer",
+            "Cross-Platform Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Learn to code for free",
+              "provider": "freeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            },
+            {
+              "title": "Developer roadmaps",
+              "provider": "roadmap.sh",
+              "url": "https://roadmap.sh/"
+            }
+          ]
+        },
+        {
+          "id": "ui-ux-designer",
+          "title": "UI/UX Designer",
+          "subtitle": "Software Engineering / Computer Science",
+          "riasec_targets": {
+            "R": 1,
+            "I": 3,
+            "A": 5,
+            "S": 4,
+            "E": 2,
+            "C": 2
+          },
+          "skills": {
+            "Programming Fundamentals": 2,
+            "Data Structures & Algorithms": 1,
+            "Object-Oriented Programming": 2,
+            "Database Management": 1,
+            "Version Control": 3,
+            "Web Development Basics": 5,
+            "Mobile App Development": 3,
+            "RESTful APIs & Backend Integration": 2,
+            "SDLC & Agile/Scrum": 4,
+            "UI/UX Design & Prototyping": 5,
+            "Operating Systems & Linux": 1,
+            "Software Testing & Debugging": 2,
+            "Cloud Computing Basics": 1,
+            "Problem Solving & Analytical Thinking": 3
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Product Designer",
+            "UX Researcher",
+            "Interaction Designer"
+          ],
+          "resources": [
+            {
+              "title": "Learn to code for free",
+              "provider": "freeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            },
+            {
+              "title": "Developer roadmaps",
+              "provider": "roadmap.sh",
+              "url": "https://roadmap.sh/"
+            }
+          ]
+        },
+        {
+          "id": "sqa-engineer",
+          "title": "Software Quality Assurance (SQA) Engineer",
+          "subtitle": "Software Engineering / Computer Science",
+          "riasec_targets": {
+            "R": 2,
+            "I": 4,
+            "A": 1,
+            "S": 3,
+            "E": 2,
+            "C": 5
+          },
+          "skills": {
+            "Programming Fundamentals": 3,
+            "Data Structures & Algorithms": 3,
+            "Object-Oriented Programming": 3,
+            "Database Management": 3,
+            "Version Control": 4,
+            "Web Development Basics": 3,
+            "Mobile App Development": 2,
+            "RESTful APIs & Backend Integration": 3,
+            "SDLC & Agile/Scrum": 5,
+            "UI/UX Design & Prototyping": 2,
+            "Operating Systems & Linux": 3,
+            "Software Testing & Debugging": 5,
+            "Cloud Computing Basics": 2,
+            "Problem Solving & Analytical Thinking": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "QA Analyst",
+            "Test Automation Engineer",
+            "Software Tester"
+          ],
+          "resources": [
+            {
+              "title": "Computer science",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-science"
+            },
+            {
+              "title": "Developer roadmaps",
+              "provider": "roadmap.sh",
+              "url": "https://roadmap.sh/"
+            }
+          ]
+        },
+        {
+          "id": "backend-database-engineer",
+          "title": "Backend / Database Engineer",
+          "subtitle": "Software Engineering / Computer Science",
+          "riasec_targets": {
+            "R": 2,
+            "I": 5,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Programming Fundamentals": 4,
+            "Data Structures & Algorithms": 5,
+            "Object-Oriented Programming": 4,
+            "Database Management": 5,
+            "Version Control": 4,
+            "Web Development Basics": 3,
+            "Mobile App Development": 2,
+            "RESTful APIs & Backend Integration": 5,
+            "SDLC & Agile/Scrum": 3,
+            "UI/UX Design & Prototyping": 1,
+            "Operating Systems & Linux": 4,
+            "Software Testing & Debugging": 4,
+            "Cloud Computing Basics": 4,
+            "Problem Solving & Analytical Thinking": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Backend Developer",
+            "Database Administrator",
+            "Data Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Intro to SQL",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-programming/sql"
+            },
+            {
+              "title": "Algorithms",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-science/algorithms"
+            }
+          ]
+        },
+        {
+          "id": "cloud-devops-engineer",
+          "title": "Cloud & DevOps Engineer",
+          "subtitle": "Software Engineering / Computer Science",
+          "riasec_targets": {
+            "R": 3,
+            "I": 5,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Programming Fundamentals": 4,
+            "Data Structures & Algorithms": 3,
+            "Object-Oriented Programming": 3,
+            "Database Management": 4,
+            "Version Control": 5,
+            "Web Development Basics": 2,
+            "Mobile App Development": 2,
+            "RESTful APIs & Backend Integration": 4,
+            "SDLC & Agile/Scrum": 4,
+            "UI/UX Design & Prototyping": 1,
+            "Operating Systems & Linux": 5,
+            "Software Testing & Debugging": 4,
+            "Cloud Computing Basics": 5,
+            "Problem Solving & Analytical Thinking": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "DevOps Engineer",
+            "Cloud Engineer",
+            "Site Reliability Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Computer science",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-science"
+            },
+            {
+              "title": "Developer roadmaps",
+              "provider": "roadmap.sh",
+              "url": "https://roadmap.sh/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "BE Electrical / Electronics Engineering",
+      "skills": [
+        {
+          "name": "Circuit Design & Analysis",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "PCB Design & Layout",
+          "category": "Tech",
+          "hint": "KiCad, Altium, EasyEDA"
+        },
+        {
+          "name": "Microcontrollers & Embedded Systems",
+          "category": "Tech",
+          "hint": "Arduino, ESP32, STM32"
+        },
+        {
+          "name": "Embedded C / C++ Programming",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "MATLAB & Simulink",
+          "category": "Analytical",
+          "hint": "Simulation & modeling"
+        },
+        {
+          "name": "Digital Logic Design & HDL",
+          "category": "Tech",
+          "hint": "DLD, Verilog/VHDL"
+        },
+        {
+          "name": "Power Systems & Electrical Machines",
+          "category": "Tech",
+          "hint": "Analysis"
+        },
+        {
+          "name": "Control Systems & Automation",
+          "category": "Tech",
+          "hint": "PLC / SCADA"
+        },
+        {
+          "name": "Signal Processing",
+          "category": "Analytical",
+          "hint": "DSP"
+        },
+        {
+          "name": "Lab Equipment Handling",
+          "category": "Tech",
+          "hint": "Oscilloscope, multimeter, function generator"
+        },
+        {
+          "name": "AutoCAD Electrical",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "IoT Integration",
+          "category": "Tech",
+          "hint": "Internet of Things"
+        },
+        {
+          "name": "Troubleshooting & Fault Diagnosis",
+          "category": "Analytical",
+          "hint": "Hardware faults"
+        },
+        {
+          "name": "Technical Documentation & Safety Standards",
+          "category": "Soft",
+          "hint": ""
+        }
+      ],
+      "fields": [
+        {
+          "id": "embedded-systems-engineer",
+          "title": "Embedded Systems Engineer",
+          "subtitle": "Electrical / Electronics Engineering",
+          "riasec_targets": {
+            "R": 4,
+            "I": 5,
+            "A": 1,
+            "S": 1,
+            "E": 1,
+            "C": 3
+          },
+          "skills": {
+            "Circuit Design & Analysis": 4,
+            "PCB Design & Layout": 3,
+            "Microcontrollers & Embedded Systems": 5,
+            "Embedded C / C++ Programming": 5,
+            "MATLAB & Simulink": 3,
+            "Digital Logic Design & HDL": 4,
+            "Power Systems & Electrical Machines": 1,
+            "Control Systems & Automation": 3,
+            "Signal Processing": 3,
+            "Lab Equipment Handling": 4,
+            "AutoCAD Electrical": 1,
+            "IoT Integration": 4,
+            "Troubleshooting & Fault Diagnosis": 4,
+            "Technical Documentation & Safety Standards": 3
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Firmware Engineer",
+            "Embedded Software Engineer",
+            "Robotics Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Electrical engineering",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/electrical-engineering"
+            },
+            {
+              "title": "Free university courses",
+              "provider": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/"
+            }
+          ]
+        },
+        {
+          "id": "pcb-hardware-design-engineer",
+          "title": "PCB & Hardware Design Engineer",
+          "subtitle": "Electrical / Electronics Engineering",
+          "riasec_targets": {
+            "R": 4,
+            "I": 4,
+            "A": 2,
+            "S": 1,
+            "E": 1,
+            "C": 4
+          },
+          "skills": {
+            "Circuit Design & Analysis": 5,
+            "PCB Design & Layout": 5,
+            "Microcontrollers & Embedded Systems": 3,
+            "Embedded C / C++ Programming": 3,
+            "MATLAB & Simulink": 3,
+            "Digital Logic Design & HDL": 4,
+            "Power Systems & Electrical Machines": 1,
+            "Control Systems & Automation": 2,
+            "Signal Processing": 3,
+            "Lab Equipment Handling": 5,
+            "AutoCAD Electrical": 3,
+            "IoT Integration": 2,
+            "Troubleshooting & Fault Diagnosis": 5,
+            "Technical Documentation & Safety Standards": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Hardware Engineer",
+            "PCB Layout Engineer",
+            "Electronics Design Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Electrical engineering",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/electrical-engineering"
+            },
+            {
+              "title": "Physics",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/physics"
+            }
+          ]
+        },
+        {
+          "id": "industrial-automation-plc-engineer",
+          "title": "Industrial Automation & PLC Engineer",
+          "subtitle": "Electrical / Electronics Engineering",
+          "riasec_targets": {
+            "R": 5,
+            "I": 3,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Circuit Design & Analysis": 4,
+            "PCB Design & Layout": 2,
+            "Microcontrollers & Embedded Systems": 3,
+            "Embedded C / C++ Programming": 2,
+            "MATLAB & Simulink": 3,
+            "Digital Logic Design & HDL": 3,
+            "Power Systems & Electrical Machines": 3,
+            "Control Systems & Automation": 5,
+            "Signal Processing": 2,
+            "Lab Equipment Handling": 4,
+            "AutoCAD Electrical": 4,
+            "IoT Integration": 3,
+            "Troubleshooting & Fault Diagnosis": 5,
+            "Technical Documentation & Safety Standards": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "PLC Programmer",
+            "SCADA Engineer",
+            "Automation Technician"
+          ],
+          "resources": [
+            {
+              "title": "Electrical engineering",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/electrical-engineering"
+            },
+            {
+              "title": "Free university courses",
+              "provider": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/"
+            }
+          ]
+        },
+        {
+          "id": "iot-solutions-engineer",
+          "title": "IoT Solutions Engineer",
+          "subtitle": "Electrical / Electronics Engineering",
+          "riasec_targets": {
+            "R": 3,
+            "I": 4,
+            "A": 2,
+            "S": 2,
+            "E": 3,
+            "C": 3
+          },
+          "skills": {
+            "Circuit Design & Analysis": 3,
+            "PCB Design & Layout": 3,
+            "Microcontrollers & Embedded Systems": 5,
+            "Embedded C / C++ Programming": 4,
+            "MATLAB & Simulink": 3,
+            "Digital Logic Design & HDL": 2,
+            "Power Systems & Electrical Machines": 1,
+            "Control Systems & Automation": 3,
+            "Signal Processing": 3,
+            "Lab Equipment Handling": 3,
+            "AutoCAD Electrical": 1,
+            "IoT Integration": 5,
+            "Troubleshooting & Fault Diagnosis": 4,
+            "Technical Documentation & Safety Standards": 3
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "IoT Developer",
+            "Smart Systems Engineer",
+            "Embedded Network Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Electrical engineering",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/electrical-engineering"
+            },
+            {
+              "title": "Learn to code for free",
+              "provider": "freeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            }
+          ]
+        },
+        {
+          "id": "fpga-digital-design-engineer",
+          "title": "FPGA / Digital Design Engineer",
+          "subtitle": "Electrical / Electronics Engineering",
+          "riasec_targets": {
+            "R": 3,
+            "I": 5,
+            "A": 1,
+            "S": 1,
+            "E": 1,
+            "C": 4
+          },
+          "skills": {
+            "Circuit Design & Analysis": 4,
+            "PCB Design & Layout": 2,
+            "Microcontrollers & Embedded Systems": 3,
+            "Embedded C / C++ Programming": 3,
+            "MATLAB & Simulink": 4,
+            "Digital Logic Design & HDL": 5,
+            "Power Systems & Electrical Machines": 1,
+            "Control Systems & Automation": 2,
+            "Signal Processing": 5,
+            "Lab Equipment Handling": 3,
+            "AutoCAD Electrical": 1,
+            "IoT Integration": 2,
+            "Troubleshooting & Fault Diagnosis": 4,
+            "Technical Documentation & Safety Standards": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "FPGA Engineer",
+            "VLSI Design Engineer",
+            "Digital Verification Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Electrical engineering",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/electrical-engineering"
+            },
+            {
+              "title": "Free university courses",
+              "provider": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu/"
+            }
+          ]
+        },
+        {
+          "id": "power-systems-engineer",
+          "title": "Power Systems Engineer",
+          "subtitle": "Electrical / Electronics Engineering",
+          "riasec_targets": {
+            "R": 4,
+            "I": 4,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Circuit Design & Analysis": 4,
+            "PCB Design & Layout": 1,
+            "Microcontrollers & Embedded Systems": 1,
+            "Embedded C / C++ Programming": 1,
+            "MATLAB & Simulink": 4,
+            "Digital Logic Design & HDL": 2,
+            "Power Systems & Electrical Machines": 5,
+            "Control Systems & Automation": 4,
+            "Signal Processing": 2,
+            "Lab Equipment Handling": 4,
+            "AutoCAD Electrical": 5,
+            "IoT Integration": 2,
+            "Troubleshooting & Fault Diagnosis": 4,
+            "Technical Documentation & Safety Standards": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Electrical Utility Engineer",
+            "Substation Engineer",
+            "Energy Systems Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Electrical engineering",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/electrical-engineering"
+            },
+            {
+              "title": "Physics",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/physics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "BBA / BS Accounting & Finance",
+      "skills": [
+        {
+          "name": "Financial Statement Analysis",
+          "category": "Analytical",
+          "hint": "Balance sheet, income statement, cash flow"
+        },
+        {
+          "name": "Advanced Excel",
+          "category": "Analytical",
+          "hint": "Pivot tables, XLOOKUP, macros, financial modeling"
+        },
+        {
+          "name": "Accounting Software",
+          "category": "Tech",
+          "hint": "QuickBooks, SAP, Xero or Tally"
+        },
+        {
+          "name": "Budgeting & Forecasting",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Taxation & Regulatory Compliance",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Auditing & Internal Controls",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Corporate Finance & Valuation",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Business Communication & Report Writing",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Data Visualization & BI Tools",
+          "category": "Tech",
+          "hint": "Power BI or Tableau"
+        },
+        {
+          "name": "Digital Marketing & Market Research",
+          "category": "Soft",
+          "hint": "Especially for BBA"
+        },
+        {
+          "name": "Project Management & Operations",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Negotiation & Client Relationship Management",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Risk Management",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Presentation & Pitching Skills",
+          "category": "Soft",
+          "hint": "PowerPoint"
+        }
+      ],
+      "fields": [
+        {
+          "id": "financial-analyst",
+          "title": "Financial Analyst",
+          "subtitle": "Business / Accounting & Finance",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 1,
+            "S": 2,
+            "E": 3,
+            "C": 4
+          },
+          "skills": {
+            "Financial Statement Analysis": 5,
+            "Advanced Excel": 5,
+            "Accounting Software": 3,
+            "Budgeting & Forecasting": 5,
+            "Taxation & Regulatory Compliance": 2,
+            "Auditing & Internal Controls": 2,
+            "Corporate Finance & Valuation": 5,
+            "Business Communication & Report Writing": 4,
+            "Data Visualization & BI Tools": 4,
+            "Digital Marketing & Market Research": 1,
+            "Project Management & Operations": 3,
+            "Negotiation & Client Relationship Management": 3,
+            "Risk Management": 4,
+            "Presentation & Pitching Skills": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Investment Analyst",
+            "Equity Research Analyst",
+            "Corporate Finance Associate"
+          ],
+          "resources": [
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            },
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            }
+          ]
+        },
+        {
+          "id": "auditor",
+          "title": "Internal / External Auditor",
+          "subtitle": "Business / Accounting & Finance",
+          "riasec_targets": {
+            "R": 1,
+            "I": 4,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 5
+          },
+          "skills": {
+            "Financial Statement Analysis": 5,
+            "Advanced Excel": 4,
+            "Accounting Software": 4,
+            "Budgeting & Forecasting": 3,
+            "Taxation & Regulatory Compliance": 4,
+            "Auditing & Internal Controls": 5,
+            "Corporate Finance & Valuation": 3,
+            "Business Communication & Report Writing": 5,
+            "Data Visualization & BI Tools": 2,
+            "Digital Marketing & Market Research": 1,
+            "Project Management & Operations": 3,
+            "Negotiation & Client Relationship Management": 3,
+            "Risk Management": 5,
+            "Presentation & Pitching Skills": 3
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Internal Auditor",
+            "External Auditor",
+            "Compliance Officer"
+          ],
+          "resources": [
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "tax-consultant",
+          "title": "Tax Consultant",
+          "subtitle": "Business / Accounting & Finance",
+          "riasec_targets": {
+            "R": 1,
+            "I": 4,
+            "A": 1,
+            "S": 3,
+            "E": 3,
+            "C": 5
+          },
+          "skills": {
+            "Financial Statement Analysis": 4,
+            "Advanced Excel": 4,
+            "Accounting Software": 4,
+            "Budgeting & Forecasting": 3,
+            "Taxation & Regulatory Compliance": 5,
+            "Auditing & Internal Controls": 3,
+            "Corporate Finance & Valuation": 2,
+            "Business Communication & Report Writing": 5,
+            "Data Visualization & BI Tools": 2,
+            "Digital Marketing & Market Research": 1,
+            "Project Management & Operations": 2,
+            "Negotiation & Client Relationship Management": 5,
+            "Risk Management": 3,
+            "Presentation & Pitching Skills": 3
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Tax Advisor",
+            "Tax Compliance Officer",
+            "Accounts Executive"
+          ],
+          "resources": [
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "erp-accounting-specialist",
+          "title": "ERP / Accounting Specialist",
+          "subtitle": "Business / Accounting & Finance",
+          "riasec_targets": {
+            "R": 1,
+            "I": 3,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 5
+          },
+          "skills": {
+            "Financial Statement Analysis": 4,
+            "Advanced Excel": 4,
+            "Accounting Software": 5,
+            "Budgeting & Forecasting": 3,
+            "Taxation & Regulatory Compliance": 3,
+            "Auditing & Internal Controls": 3,
+            "Corporate Finance & Valuation": 2,
+            "Business Communication & Report Writing": 4,
+            "Data Visualization & BI Tools": 3,
+            "Digital Marketing & Market Research": 1,
+            "Project Management & Operations": 4,
+            "Negotiation & Client Relationship Management": 3,
+            "Risk Management": 3,
+            "Presentation & Pitching Skills": 3
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "ERP Consultant",
+            "Accounts Manager",
+            "Systems Accountant"
+          ],
+          "resources": [
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "bi-analyst",
+          "title": "Business Intelligence (BI) Analyst",
+          "subtitle": "Business / Accounting & Finance",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 2,
+            "S": 2,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Financial Statement Analysis": 4,
+            "Advanced Excel": 5,
+            "Accounting Software": 3,
+            "Budgeting & Forecasting": 4,
+            "Taxation & Regulatory Compliance": 1,
+            "Auditing & Internal Controls": 2,
+            "Corporate Finance & Valuation": 3,
+            "Business Communication & Report Writing": 4,
+            "Data Visualization & BI Tools": 5,
+            "Digital Marketing & Market Research": 2,
+            "Project Management & Operations": 3,
+            "Negotiation & Client Relationship Management": 3,
+            "Risk Management": 3,
+            "Presentation & Pitching Skills": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Data Analyst",
+            "Reporting Analyst",
+            "Business Analyst"
+          ],
+          "resources": [
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            },
+            {
+              "title": "Intro to SQL",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-programming/sql"
+            }
+          ]
+        },
+        {
+          "id": "digital-marketing-brand-strategist",
+          "title": "Digital Marketing & Brand Strategist",
+          "subtitle": "Business / Accounting & Finance",
+          "riasec_targets": {
+            "R": 1,
+            "I": 3,
+            "A": 5,
+            "S": 4,
+            "E": 5,
+            "C": 2
+          },
+          "skills": {
+            "Financial Statement Analysis": 2,
+            "Advanced Excel": 3,
+            "Accounting Software": 1,
+            "Budgeting & Forecasting": 3,
+            "Taxation & Regulatory Compliance": 1,
+            "Auditing & Internal Controls": 1,
+            "Corporate Finance & Valuation": 2,
+            "Business Communication & Report Writing": 5,
+            "Data Visualization & BI Tools": 4,
+            "Digital Marketing & Market Research": 5,
+            "Project Management & Operations": 4,
+            "Negotiation & Client Relationship Management": 5,
+            "Risk Management": 2,
+            "Presentation & Pitching Skills": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Marketing Manager",
+            "Brand Strategist",
+            "Social Media Strategist"
+          ],
+          "resources": [
+            {
+              "title": "Entrepreneurship",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/entrepreneurship2"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "BS Biotechnology / Microbiology",
+      "skills": [
+        {
+          "name": "Aseptic Techniques & Sterilization",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "Microbial Culturing & Isolation",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "PCR & Gel Electrophoresis",
+          "category": "Tech",
+          "hint": "Polymerase chain reaction"
+        },
+        {
+          "name": "DNA/RNA Extraction & Quantification",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "Microscopy & Staining Techniques",
+          "category": "Tech",
+          "hint": "Gram staining etc."
+        },
+        {
+          "name": "ELISA & Immunoassays",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "Spectrophotometry & Chromatography",
+          "category": "Tech",
+          "hint": "HPLC / GC"
+        },
+        {
+          "name": "Bioinformatics & Sequence Analysis",
+          "category": "Analytical",
+          "hint": "BLAST, NCBI tools"
+        },
+        {
+          "name": "Biosafety & Lab Waste Management",
+          "category": "Soft",
+          "hint": "GLP / GMP"
+        },
+        {
+          "name": "Fermentation & Bioprocess Technology",
+          "category": "Tech",
+          "hint": ""
+        },
+        {
+          "name": "Quality Control & Quality Assurance",
+          "category": "Analytical",
+          "hint": "QC / QA"
+        },
+        {
+          "name": "Scientific Research & Literature Review",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Statistical Data Analysis",
+          "category": "Analytical",
+          "hint": "SPSS, R or GraphPad Prism"
+        },
+        {
+          "name": "Lab Documentation & Report Writing",
+          "category": "Soft",
+          "hint": ""
+        }
+      ],
+      "fields": [
+        {
+          "id": "qc-microbiologist",
+          "title": "Quality Control (QC) Microbiologist",
+          "subtitle": "Biotechnology / Microbiology",
+          "riasec_targets": {
+            "R": 4,
+            "I": 5,
+            "A": 1,
+            "S": 1,
+            "E": 1,
+            "C": 5
+          },
+          "skills": {
+            "Aseptic Techniques & Sterilization": 5,
+            "Microbial Culturing & Isolation": 5,
+            "PCR & Gel Electrophoresis": 3,
+            "DNA/RNA Extraction & Quantification": 3,
+            "Microscopy & Staining Techniques": 5,
+            "ELISA & Immunoassays": 3,
+            "Spectrophotometry & Chromatography": 4,
+            "Bioinformatics & Sequence Analysis": 1,
+            "Biosafety & Lab Waste Management": 5,
+            "Fermentation & Bioprocess Technology": 3,
+            "Quality Control & Quality Assurance": 5,
+            "Scientific Research & Literature Review": 3,
+            "Statistical Data Analysis": 3,
+            "Lab Documentation & Report Writing": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Microbiology Technician",
+            "QC Analyst",
+            "Food Safety Microbiologist"
+          ],
+          "resources": [
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            },
+            {
+              "title": "Health and medicine",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/health-and-medicine"
+            }
+          ]
+        },
+        {
+          "id": "qa-officer",
+          "title": "Quality Assurance (QA) Officer",
+          "subtitle": "Biotechnology / Microbiology",
+          "riasec_targets": {
+            "R": 2,
+            "I": 4,
+            "A": 1,
+            "S": 2,
+            "E": 2,
+            "C": 5
+          },
+          "skills": {
+            "Aseptic Techniques & Sterilization": 4,
+            "Microbial Culturing & Isolation": 3,
+            "PCR & Gel Electrophoresis": 2,
+            "DNA/RNA Extraction & Quantification": 2,
+            "Microscopy & Staining Techniques": 3,
+            "ELISA & Immunoassays": 3,
+            "Spectrophotometry & Chromatography": 3,
+            "Bioinformatics & Sequence Analysis": 1,
+            "Biosafety & Lab Waste Management": 5,
+            "Fermentation & Bioprocess Technology": 3,
+            "Quality Control & Quality Assurance": 5,
+            "Scientific Research & Literature Review": 3,
+            "Statistical Data Analysis": 4,
+            "Lab Documentation & Report Writing": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "QA Executive",
+            "Compliance Officer",
+            "Documentation Specialist"
+          ],
+          "resources": [
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "clinical-lab-technologist",
+          "title": "Clinical Lab Technologist",
+          "subtitle": "Biotechnology / Microbiology",
+          "riasec_targets": {
+            "R": 4,
+            "I": 5,
+            "A": 1,
+            "S": 3,
+            "E": 1,
+            "C": 5
+          },
+          "skills": {
+            "Aseptic Techniques & Sterilization": 5,
+            "Microbial Culturing & Isolation": 4,
+            "PCR & Gel Electrophoresis": 4,
+            "DNA/RNA Extraction & Quantification": 3,
+            "Microscopy & Staining Techniques": 5,
+            "ELISA & Immunoassays": 5,
+            "Spectrophotometry & Chromatography": 3,
+            "Bioinformatics & Sequence Analysis": 1,
+            "Biosafety & Lab Waste Management": 5,
+            "Fermentation & Bioprocess Technology": 1,
+            "Quality Control & Quality Assurance": 4,
+            "Scientific Research & Literature Review": 3,
+            "Statistical Data Analysis": 3,
+            "Lab Documentation & Report Writing": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Medical Lab Technologist",
+            "Pathology Lab Technician",
+            "Diagnostic Specialist"
+          ],
+          "resources": [
+            {
+              "title": "Health and medicine",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/health-and-medicine"
+            },
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            }
+          ]
+        },
+        {
+          "id": "bioinformatics-analyst",
+          "title": "Bioinformatics Analyst",
+          "subtitle": "Biotechnology / Microbiology",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 2,
+            "S": 1,
+            "E": 1,
+            "C": 4
+          },
+          "skills": {
+            "Aseptic Techniques & Sterilization": 1,
+            "Microbial Culturing & Isolation": 1,
+            "PCR & Gel Electrophoresis": 3,
+            "DNA/RNA Extraction & Quantification": 4,
+            "Microscopy & Staining Techniques": 1,
+            "ELISA & Immunoassays": 1,
+            "Spectrophotometry & Chromatography": 2,
+            "Bioinformatics & Sequence Analysis": 5,
+            "Biosafety & Lab Waste Management": 2,
+            "Fermentation & Bioprocess Technology": 1,
+            "Quality Control & Quality Assurance": 2,
+            "Scientific Research & Literature Review": 5,
+            "Statistical Data Analysis": 5,
+            "Lab Documentation & Report Writing": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Computational Biologist",
+            "Genomics Data Analyst",
+            "Research Programmer"
+          ],
+          "resources": [
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            },
+            {
+              "title": "Computer science",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/computing/computer-science"
+            }
+          ]
+        },
+        {
+          "id": "bioprocess-fermentation-specialist",
+          "title": "Bioprocess & Fermentation Specialist",
+          "subtitle": "Biotechnology / Microbiology",
+          "riasec_targets": {
+            "R": 4,
+            "I": 5,
+            "A": 1,
+            "S": 1,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Aseptic Techniques & Sterilization": 5,
+            "Microbial Culturing & Isolation": 5,
+            "PCR & Gel Electrophoresis": 2,
+            "DNA/RNA Extraction & Quantification": 2,
+            "Microscopy & Staining Techniques": 3,
+            "ELISA & Immunoassays": 2,
+            "Spectrophotometry & Chromatography": 4,
+            "Bioinformatics & Sequence Analysis": 2,
+            "Biosafety & Lab Waste Management": 4,
+            "Fermentation & Bioprocess Technology": 5,
+            "Quality Control & Quality Assurance": 4,
+            "Scientific Research & Literature Review": 3,
+            "Statistical Data Analysis": 4,
+            "Lab Documentation & Report Writing": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Process Technologist",
+            "Production Microbiologist",
+            "Bioprocess Engineer"
+          ],
+          "resources": [
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            },
+            {
+              "title": "Chemistry",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/chemistry"
+            }
+          ]
+        },
+        {
+          "id": "pharma-rd-associate",
+          "title": "Pharmaceutical R&D Associate",
+          "subtitle": "Biotechnology / Microbiology",
+          "riasec_targets": {
+            "R": 3,
+            "I": 5,
+            "A": 2,
+            "S": 2,
+            "E": 2,
+            "C": 4
+          },
+          "skills": {
+            "Aseptic Techniques & Sterilization": 4,
+            "Microbial Culturing & Isolation": 4,
+            "PCR & Gel Electrophoresis": 4,
+            "DNA/RNA Extraction & Quantification": 4,
+            "Microscopy & Staining Techniques": 3,
+            "ELISA & Immunoassays": 4,
+            "Spectrophotometry & Chromatography": 5,
+            "Bioinformatics & Sequence Analysis": 3,
+            "Biosafety & Lab Waste Management": 5,
+            "Fermentation & Bioprocess Technology": 3,
+            "Quality Control & Quality Assurance": 4,
+            "Scientific Research & Literature Review": 5,
+            "Statistical Data Analysis": 4,
+            "Lab Documentation & Report Writing": 5
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Research Associate",
+            "Formulation Scientist",
+            "Analytical Chemist"
+          ],
+          "resources": [
+            {
+              "title": "Chemistry",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/chemistry"
+            },
+            {
+              "title": "Biology",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/science/biology"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "BS Psychology / Social Sciences",
+      "skills": [
+        {
+          "name": "Research Methodology",
+          "category": "Analytical",
+          "hint": "Qualitative & quantitative"
+        },
+        {
+          "name": "Statistical Analysis & Software",
+          "category": "Analytical",
+          "hint": "SPSS, R or Jamovi"
+        },
+        {
+          "name": "Psychological Assessment & Psychometrics",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Active Listening & Empathy",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Case History Taking & Clinical Observation",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Counseling & Interviewing Techniques",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Academic & Policy Writing",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Survey Design & Data Collection",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Critical Thinking & Behavioral Analysis",
+          "category": "Analytical",
+          "hint": ""
+        },
+        {
+          "name": "Conflict Resolution & Mediation",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Ethical Standards & Confidentiality",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Public Speaking & Workshop Facilitation",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Community Outreach & Fieldwork",
+          "category": "Soft",
+          "hint": ""
+        },
+        {
+          "name": "Cross-Cultural Competence",
+          "category": "Soft",
+          "hint": ""
+        }
+      ],
+      "fields": [
+        {
+          "id": "clinical-counseling-psychologist",
+          "title": "Clinical / Counseling Psychologist",
+          "subtitle": "Psychology / Social Sciences",
+          "riasec_targets": {
+            "R": 1,
+            "I": 4,
+            "A": 2,
+            "S": 5,
+            "E": 2,
+            "C": 3
+          },
+          "skills": {
+            "Research Methodology": 4,
+            "Statistical Analysis & Software": 3,
+            "Psychological Assessment & Psychometrics": 5,
+            "Active Listening & Empathy": 5,
+            "Case History Taking & Clinical Observation": 5,
+            "Counseling & Interviewing Techniques": 5,
+            "Academic & Policy Writing": 3,
+            "Survey Design & Data Collection": 3,
+            "Critical Thinking & Behavioral Analysis": 5,
+            "Conflict Resolution & Mediation": 4,
+            "Ethical Standards & Confidentiality": 5,
+            "Public Speaking & Workshop Facilitation": 3,
+            "Community Outreach & Fieldwork": 3,
+            "Cross-Cultural Competence": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Counselor",
+            "Therapist",
+            "School Psychologist"
+          ],
+          "resources": [
+            {
+              "title": "Psychology and behavior",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/test-prep/mcat/behavior"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "hr-specialist",
+          "title": "Human Resources (HR) Specialist",
+          "subtitle": "Psychology / Social Sciences",
+          "riasec_targets": {
+            "R": 1,
+            "I": 2,
+            "A": 2,
+            "S": 5,
+            "E": 4,
+            "C": 4
+          },
+          "skills": {
+            "Research Methodology": 2,
+            "Statistical Analysis & Software": 2,
+            "Psychological Assessment & Psychometrics": 3,
+            "Active Listening & Empathy": 4,
+            "Case History Taking & Clinical Observation": 2,
+            "Counseling & Interviewing Techniques": 4,
+            "Academic & Policy Writing": 3,
+            "Survey Design & Data Collection": 2,
+            "Critical Thinking & Behavioral Analysis": 3,
+            "Conflict Resolution & Mediation": 5,
+            "Ethical Standards & Confidentiality": 4,
+            "Public Speaking & Workshop Facilitation": 4,
+            "Community Outreach & Fieldwork": 2,
+            "Cross-Cultural Competence": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Recruitment Specialist",
+            "Training Coordinator",
+            "HR Generalist"
+          ],
+          "resources": [
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            },
+            {
+              "title": "Entrepreneurship",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain/entrepreneurship2"
+            }
+          ]
+        },
+        {
+          "id": "social-market-research-analyst",
+          "title": "Social & Market Research Analyst",
+          "subtitle": "Psychology / Social Sciences",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 2,
+            "S": 3,
+            "E": 3,
+            "C": 4
+          },
+          "skills": {
+            "Research Methodology": 5,
+            "Statistical Analysis & Software": 5,
+            "Psychological Assessment & Psychometrics": 2,
+            "Active Listening & Empathy": 3,
+            "Case History Taking & Clinical Observation": 2,
+            "Counseling & Interviewing Techniques": 3,
+            "Academic & Policy Writing": 4,
+            "Survey Design & Data Collection": 5,
+            "Critical Thinking & Behavioral Analysis": 5,
+            "Conflict Resolution & Mediation": 2,
+            "Ethical Standards & Confidentiality": 3,
+            "Public Speaking & Workshop Facilitation": 3,
+            "Community Outreach & Fieldwork": 4,
+            "Cross-Cultural Competence": 3
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Survey Researcher",
+            "Market Research Analyst",
+            "Data Analyst"
+          ],
+          "resources": [
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "me-officer",
+          "title": "Monitoring & Evaluation (M&E) Officer",
+          "subtitle": "Psychology / Social Sciences",
+          "riasec_targets": {
+            "R": 2,
+            "I": 4,
+            "A": 1,
+            "S": 4,
+            "E": 3,
+            "C": 5
+          },
+          "skills": {
+            "Research Methodology": 5,
+            "Statistical Analysis & Software": 4,
+            "Psychological Assessment & Psychometrics": 2,
+            "Active Listening & Empathy": 3,
+            "Case History Taking & Clinical Observation": 2,
+            "Counseling & Interviewing Techniques": 3,
+            "Academic & Policy Writing": 5,
+            "Survey Design & Data Collection": 5,
+            "Critical Thinking & Behavioral Analysis": 4,
+            "Conflict Resolution & Mediation": 3,
+            "Ethical Standards & Confidentiality": 4,
+            "Public Speaking & Workshop Facilitation": 4,
+            "Community Outreach & Fieldwork": 5,
+            "Cross-Cultural Competence": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Program Evaluator",
+            "Impact Assessment Officer",
+            "NGO Project Officer"
+          ],
+          "resources": [
+            {
+              "title": "Statistics and probability",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/math/statistics-probability"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "employee-wellness-coordinator",
+          "title": "Employee Wellness Coordinator",
+          "subtitle": "Psychology / Social Sciences",
+          "riasec_targets": {
+            "R": 1,
+            "I": 2,
+            "A": 3,
+            "S": 5,
+            "E": 3,
+            "C": 3
+          },
+          "skills": {
+            "Research Methodology": 2,
+            "Statistical Analysis & Software": 1,
+            "Psychological Assessment & Psychometrics": 2,
+            "Active Listening & Empathy": 5,
+            "Case History Taking & Clinical Observation": 3,
+            "Counseling & Interviewing Techniques": 5,
+            "Academic & Policy Writing": 3,
+            "Survey Design & Data Collection": 2,
+            "Critical Thinking & Behavioral Analysis": 3,
+            "Conflict Resolution & Mediation": 4,
+            "Ethical Standards & Confidentiality": 4,
+            "Public Speaking & Workshop Facilitation": 5,
+            "Community Outreach & Fieldwork": 4,
+            "Cross-Cultural Competence": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Wellbeing Program Coordinator",
+            "Workplace Counselor",
+            "Corporate Trainer"
+          ],
+          "resources": [
+            {
+              "title": "Psychology and behavior",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/test-prep/mcat/behavior"
+            },
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            }
+          ]
+        },
+        {
+          "id": "public-policy-analyst",
+          "title": "Public Policy Analyst",
+          "subtitle": "Psychology / Social Sciences",
+          "riasec_targets": {
+            "R": 1,
+            "I": 5,
+            "A": 2,
+            "S": 3,
+            "E": 3,
+            "C": 4
+          },
+          "skills": {
+            "Research Methodology": 5,
+            "Statistical Analysis & Software": 4,
+            "Psychological Assessment & Psychometrics": 1,
+            "Active Listening & Empathy": 2,
+            "Case History Taking & Clinical Observation": 1,
+            "Counseling & Interviewing Techniques": 2,
+            "Academic & Policy Writing": 5,
+            "Survey Design & Data Collection": 4,
+            "Critical Thinking & Behavioral Analysis": 5,
+            "Conflict Resolution & Mediation": 3,
+            "Ethical Standards & Confidentiality": 3,
+            "Public Speaking & Workshop Facilitation": 3,
+            "Community Outreach & Fieldwork": 4,
+            "Cross-Cultural Competence": 4
+          },
+          "reason_template": "Your interests and skills in {subtitle} line up with this career path.",
+          "careers": [
+            "Policy Researcher",
+            "Think-Tank Analyst",
+            "Government Program Analyst"
+          ],
+          "resources": [
+            {
+              "title": "Free courses",
+              "provider": "OpenLearn",
+              "url": "https://www.open.edu/openlearn/"
+            },
+            {
+              "title": "Economics and finance",
+              "provider": "Khan Academy",
+              "url": "https://www.khanacademy.org/economics-finance-domain"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
